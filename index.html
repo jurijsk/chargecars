@@ -1,0 +1,3291 @@
+<html lang="en" style="overflow: hidden; height: 100%">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+    <meta name="description" content="A technology company that creates brand new electric cars." />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Charge Cars" />
+    <meta name="twitter:description" content="A technology company that creates brand new electric cars." />
+    <meta name="twitter:image" content="https://charge.cars/images/social_image_home.jpg" />
+    <meta name="twitter:image:width" content="1200" />
+    <meta name="twitter:image:height" content="630" />
+
+    <meta property="og:url" content="https://charge.cars/" />
+    <meta property="og:title" content="Charge Cars" />
+    <meta property="og:description" content="A technology company that creates brand new electric cars." />
+    <meta property="og:image" content="https://charge.cars/images/social_image_home.jpg" />
+    <meta property="og:image:type" content="image/jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <title>Home page :: Charge</title>
+
+    <link rel="stylesheet" href="/cache/app.css" type="text/css" />
+    <link rel="stylesheet" href="/cache/inputmask.css" />
+    <link
+      rel="stylesheet"
+      href="/css/libs/jquery.fullpage.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="/css/libs/splide-core.css" type="text/css" />
+    <link rel="stylesheet" href="/css/libs/splide.css" type="text/css" />
+    <link rel="stylesheet" href="/css/libs/choices.min.css" type="text/css" />
+
+    <style>
+      body.fp-viewing-10 #topnav {
+        background-color: black;
+      }
+      body.fp-viewing-10 #topnav:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        height: 80px;
+        pointer-events: none;
+        background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+      }
+    </style>
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/favicons/favicon-16x16.png"
+    />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta
+      name="msapplication-config"
+      content="/images/favicons/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="manifest" href="/images/favicons/site.webmanifest" />
+
+    <link
+      rel="preload"
+      as="font"
+      href="/fonts/montserrat/montserrat-cyrillic-400.woff2"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      as="font"
+      href="/fonts/montserrat/montserrat-cyrillic-500.woff2"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      as="font"
+      href="/fonts/montserrat/montserrat-cyrillic-600.woff2"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <svg class="absolute hidden" xmlns="http://www.w3.org/2000/svg">
+      <symbol id="icon-logo" viewBox="0 0 36 36">
+        <path
+          d="M11.6024 0L9.61616 1.98659L16.0143 8.38585L16.0116 8.38857L16.5925 8.96964V16.5903H8.97489L8.39489 16.0102L8.39009 16.015L1.98622 9.61001L0 11.5966L6.40384 18.0017L0.0079102 24.3988L1.99413 26.3854L8.97837 19.3998H16.5908V19.406H16.5925V27.0302L16.0116 27.6113L16.0151 27.6148L9.61792 34.0132L11.6041 35.9998L18.0013 29.6014L24.3985 35.9999L26.3847 34.0133L19.9875 27.6148L19.9911 27.6112L19.402 27.022V19.406H27.0243L27.606 19.9878L27.6122 19.9817L34.0138 26.3845L36 24.3979L29.5984 17.9951L35.993 11.5993L34.0068 9.61264L27.0243 16.5965H19.407V16.5903H19.402V8.97606L19.9893 8.3886L19.9867 8.38593L26.3847 1.98659L24.3986 0L18.0005 6.39931L11.6024 0Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol id="icon-bars" viewBox="0 0 26 12">
+        <path d="M26 0H0V3H26V0Z" fill="currentColor" />
+        <path d="M26 9H0V12H26V9Z" fill="currentColor" />
+      </symbol>
+      <symbol id="icon-times" viewBox="0 0 34 34">
+        <path
+          d="M15 12.8788L26.8856 0.993164L29.0069 3.11448L17.1213 15.0001L29.0005 26.8793L26.8792 29.0007L15 17.1214L3.11412 29.0073L0.992798 26.886L12.8787 15.0001L0.999258 3.12068L3.12058 0.999362L15 12.8788Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol id="icon-download" viewBox="0 0 512 512">
+        <path
+          d="M480 352h-133.5l-45.25 45.25C289.2 409.3 273.1 416 256 416s-33.16-6.656-45.25-18.75L165.5 352H32c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h448c17.67 0 32-14.33 32-32v-96C512 366.3 497.7 352 480 352zM432 456c-13.2 0-24-10.8-24-24c0-13.2 10.8-24 24-24s24 10.8 24 24C456 445.2 445.2 456 432 456zM233.4 374.6C239.6 380.9 247.8 384 256 384s16.38-3.125 22.62-9.375l128-128c12.49-12.5 12.49-32.75 0-45.25c-12.5-12.5-32.76-12.5-45.25 0L288 274.8V32c0-17.67-14.33-32-32-32C238.3 0 224 14.33 224 32v242.8L150.6 201.4c-12.49-12.5-32.75-12.5-45.25 0c-12.49 12.5-12.49 32.75 0 45.25L233.4 374.6z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol id="icon-next" viewBox="0 0 18 18">
+        <path
+          d="M7.51465 5.40039L11.1146 9.00039L7.51465 12.6004"
+          stroke="currentColor"
+          stroke-width="2"
+        />
+        <path
+          d="M3 2H15V-2H3V2ZM16 3V15H20V3H16ZM15 16H3V20H15V16ZM2 15V3H-2V15H2ZM3 16C2.44772 16 2 15.5523 2 15H-2C-2 17.7614 0.238577 20 3 20V16ZM16 15C16 15.5523 15.5523 16 15 16V20C17.7614 20 20 17.7614 20 15H16ZM15 2C15.5523 2 16 2.44772 16 3H20C20 0.238576 17.7614 -2 15 -2V2ZM3 -2C0.238576 -2 -2 0.238577 -2 3H2C2 2.44772 2.44772 2 3 2V-2Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol id="icon-arrow-down" viewBox="0 0 36 36">
+        <path
+          d="M2.24414 13.3274L17.9985 28.3833L18.236 28.1409L18.2389 28.1439L33.9434 13.1388L31.7967 11L18.0014 24.0569L4.39052 11.1882L2.24414 13.3274Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol id="icon-social-ig" viewBox="0 0 36 36">
+        <path
+          d="M18 36C15.5625 36 13.2305 35.5254 11.0039 34.5762C8.77734 33.627 6.86133 32.3496 5.25586 30.7441C3.65039 29.1387 2.37305 27.2227 1.42383 24.9961C0.474609 22.7695 0 20.4375 0 18C0 15.5625 0.474609 13.2305 1.42383 11.0039C2.37305 8.77734 3.65039 6.86133 5.25586 5.25586C6.86133 3.65039 8.77734 2.37305 11.0039 1.42383C13.2305 0.474609 15.5625 0 18 0C20.4375 0 22.7695 0.474609 24.9961 1.42383C27.2227 2.37305 29.1387 3.65039 30.7441 5.25586C32.3496 6.86133 33.627 8.77734 34.5762 11.0039C35.5254 13.2305 36 15.5625 36 18C36 20.4375 35.5254 22.7695 34.5762 24.9961C33.627 27.2227 32.3496 29.1387 30.7441 30.7441C29.1387 32.3496 27.2227 33.627 24.9961 34.5762C22.7695 35.5254 20.4375 36 18 36ZM27 11.25C27 10.6406 26.7832 10.1133 26.3496 9.66797C25.916 9.22266 25.3828 9 24.75 9H11.25C10.6406 9 10.1133 9.22266 9.66797 9.66797C9.22266 10.1133 9 10.6406 9 11.25V13.5H13.0078C14.3672 12 16.0312 11.25 18 11.25C19.9688 11.25 21.6328 12 22.9922 13.5H27V11.25ZM13.5 18C13.5 19.2422 13.9395 20.3027 14.8184 21.1816C15.6973 22.0605 16.7578 22.5 18 22.5C19.2422 22.5 20.3027 22.0605 21.1816 21.1816C22.0605 20.3027 22.5 19.2422 22.5 18C22.5 16.7578 22.0605 15.6973 21.1816 14.8184C20.3027 13.9395 19.2422 13.5 18 13.5C16.7578 13.5 15.6973 13.9395 14.8184 14.8184C13.9395 15.6973 13.5 16.7578 13.5 18ZM27 15.75H24.3281C24.6094 16.5234 24.75 17.2734 24.75 18C24.75 19.875 24.0938 21.4688 22.7812 22.7812C21.4688 24.0938 19.875 24.75 18 24.75C16.125 24.75 14.5312 24.0938 13.2188 22.7812C11.9062 21.4688 11.25 19.875 11.25 18C11.25 17.2734 11.3906 16.5234 11.6719 15.75H9V24.75C9 25.3828 9.2168 25.916 9.65039 26.3496C10.084 26.7832 10.6172 27 11.25 27H24.75C25.3828 27 25.916 26.7832 26.3496 26.3496C26.7832 25.916 27 25.3828 27 24.75V15.75Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol id="icon-social-youtube" viewBox="0 0 36 36">
+        <path
+          d="M21.0056 17.6869L16.7944 15.7219C16.4269 15.5512 16.125 15.7425 16.125 16.1494V19.8506C16.125 20.2575 16.4269 20.4487 16.7944 20.2781L21.0037 18.3131C21.3731 18.1406 21.3731 17.8594 21.0056 17.6869ZM18 0C8.05875 0 0 8.05875 0 18C0 27.9412 8.05875 36 18 36C27.9412 36 36 27.9412 36 18C36 8.05875 27.9412 0 18 0ZM18 25.3125C8.78625 25.3125 8.625 24.4819 8.625 18C8.625 11.5181 8.78625 10.6875 18 10.6875C27.2137 10.6875 27.375 11.5181 27.375 18C27.375 24.4819 27.2137 25.3125 18 25.3125Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol id="icon-social-ln" viewBox="0 0 36 36">
+        <path
+          d="M18 0C8.05875 0 0 8.05875 0 18C0 27.9412 8.05875 36 18 36C27.9412 36 36 27.9412 36 18C36 8.05875 27.9412 0 18 0ZM13.5937 25.4606H9.94875V13.7306H13.5937V25.4606ZM11.7487 12.2906C10.5975 12.2906 9.85312 11.475 9.85312 10.4662C9.85312 9.43687 10.62 8.64562 11.7956 8.64562C12.9712 8.64562 13.6912 9.43687 13.7137 10.4662C13.7137 11.475 12.9712 12.2906 11.7487 12.2906ZM26.9062 25.4606H23.2612V18.96C23.2612 17.4469 22.7325 16.4194 21.4144 16.4194C20.4075 16.4194 19.8094 17.115 19.545 17.7844C19.4475 18.0225 19.4231 18.36 19.4231 18.6956V25.4587H15.7762V17.4713C15.7762 16.0069 15.7294 14.7825 15.6806 13.7287H18.8475L19.0144 15.3581H19.0875C19.5675 14.5931 20.7431 13.4644 22.71 13.4644C25.1081 13.4644 26.9062 15.0712 26.9062 18.525V25.4606Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol id="icon-social-fb" viewBox="0 0 36 36">
+        <path
+          d="M36 18.1102C36 8.10799 27.9415 0 18.0022 0C8.05849 0.00224972 0 8.10799 0 18.1125C0 27.1496 6.58268 34.6412 15.1856 36V23.3453H10.6187V18.1125H15.1901V14.1192C15.1901 9.58155 17.8785 7.07537 21.9887 7.07537C23.9595 7.07537 26.018 7.42857 26.018 7.42857V11.883H23.748C21.5141 11.883 20.8166 13.2801 20.8166 14.7132V18.1102H25.8065L25.0101 23.3431H20.8144V35.9977C29.4173 34.6389 36 27.1474 36 18.1102Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol id="icon-social-tw" viewBox="0 0 36 36">
+        <path
+          d="M18 0C8.05982 0 0 8.05982 0 18C0 27.9402 8.05982 36 18 36C27.9402 36 36 27.9402 36 18C36 8.05982 27.9402 0 18 0ZM26.6504 13.5683C26.6625 13.7571 26.6625 13.954 26.6625 14.1469C26.6625 20.0451 22.1705 26.8393 13.9621 26.8393C11.4308 26.8393 9.08437 26.104 7.10759 24.8384C7.4692 24.8786 7.81473 24.8946 8.18438 24.8946C10.2737 24.8946 12.1942 24.1875 13.725 22.9902C11.7643 22.95 10.117 21.6643 9.55446 19.8964C10.2415 19.9969 10.8603 19.9969 11.5674 19.8161C10.5578 19.611 9.65039 19.0627 8.99926 18.2643C8.34813 17.466 7.99347 16.4668 7.99554 15.4366V15.3804C8.58616 15.7138 9.28125 15.9187 10.0085 15.9469C9.39713 15.5394 8.89577 14.9875 8.54884 14.3399C8.20191 13.6923 8.02014 12.969 8.01964 12.2344C8.01964 11.4027 8.23661 10.6433 8.62634 9.98438C9.74693 11.3639 11.1453 12.4921 12.7304 13.2958C14.3156 14.0994 16.0522 14.5605 17.8272 14.6491C17.1964 11.6156 19.4625 9.16071 22.1866 9.16071C23.4723 9.16071 24.6295 9.69911 25.4451 10.567C26.4536 10.3781 27.4179 10.0004 28.2777 9.4942C27.9442 10.5268 27.2451 11.3987 26.317 11.9491C27.217 11.8527 28.0848 11.6036 28.8884 11.254C28.2817 12.146 27.5223 12.9375 26.6504 13.5683Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol id="events-map-pin">
+        <path
+          d="M55.1 29C55.1 43.4146 43.4146 55.1 29 55.1C14.5854 55.1 2.9 43.4146 2.9 29C2.9 14.5854 14.5854 2.9 29 2.9C43.4146 2.9 55.1 14.5854 55.1 29ZM29 57.5C44.7401 57.5 57.5 44.7401 57.5 29C57.5 13.2599 44.7401 0.5 29 0.5C13.2599 0.5 0.5 13.2599 0.5 29C0.5 44.7401 13.2599 57.5 29 57.5Z"
+          fill="white"
+          stroke="white"
+        />
+        <path
+          d="M24.5216 16.4004L23.1312 17.791L27.6099 22.2705L27.608 22.2724L28.0147 22.6791V28.0136H22.6823L22.2763 27.6076L22.273 27.6109L17.7903 23.1274L16.3999 24.518L20.8826 29.0015L16.4054 33.4795L17.7958 34.8702L22.6848 29.9803H28.0134V29.9846H28.0147V35.3215L27.608 35.7283L27.6105 35.7307L23.1324 40.2096L24.5228 41.6002L29.0008 37.1214L33.4789 41.6003L34.8692 40.2097L30.3911 35.7307L30.3937 35.7282L29.9813 35.3158V29.9846H35.3169L35.7241 30.3919L35.7284 30.3876L40.2096 34.8695L41.5999 33.4789L37.1188 28.9969L41.595 24.5199L40.2047 23.1292L35.3169 28.0179H29.9848V28.0136H29.9813V22.6836L30.3924 22.2724L30.3906 22.2705L34.8692 17.791L33.4789 16.4004L29.0002 20.8799L24.5216 16.4004Z"
+          fill="white"
+        />
+      </symbol>
+    </svg>
+
+    <div id="app">
+      <div class="relative z-10">
+        <div id="topnav">
+          <div class="lg:w-[120px]">
+            <a
+              id="topnav-link-logo"
+              data-navigation-item
+              href="#vision-statement"
+              class="icon-link w-[36px] h-[36px] hidden lg:block"
+            >
+              <svg
+                class="w-[34px] h-[34px] text-white"
+                aria-hidden="true"
+                focusable="true"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <use xlink:href="#icon-logo"></use>
+              </svg>
+            </a>
+
+            <a
+              data-toggle-mobile-menu
+              class="icon-link w-[36px] h-[36px] flex lg:hidden items-center cursor-pointer"
+            >
+              <svg
+                class="w-[26px] h-[12px] text-white"
+                aria-hidden="true"
+                focusable="true"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <use xlink:href="#icon-bars"></use>
+              </svg>
+            </a>
+          </div>
+
+          <nav class="hidden lg:flex space-x-[25px]">
+            <div>
+              <a
+                id="topnav-link-product"
+                data-navigation-item
+                href="#product"
+                class="nav-link"
+                >Product</a
+              >
+            </div>
+            <div>
+              <a
+                id="topnav-link-gallery"
+                data-navigation-item
+                href="#gallery"
+                class="nav-link"
+                >Gallery</a
+              >
+            </div>
+            <div>
+              <a
+                id="topnav-link-technology"
+                data-navigation-item
+                href="#technology"
+                class="nav-link"
+                >Technology</a
+              >
+            </div>
+            <div>
+              <a
+                id="topnav-link-bespoke-expierence"
+                data-navigation-item
+                href="#bespoke-expierence"
+                class="nav-link"
+                >Bespoke Experience</a
+              >
+            </div>
+			<div>
+				<a
+				  id="topnav-link-dealerships"
+				  data-navigation-item
+				  href="#dealerships"
+				  class="nav-link"
+				  >Dealerships</a
+				>
+			  </div>
+            <div>
+              <a
+                id="topnav-link-about-us"
+                data-navigation-item
+                href="#about-us"
+                class="nav-link"
+                >Company</a
+              >
+            </div>
+          </nav>
+
+          <div
+            class="transition-opacity duration-300"
+            style="width: 120px; text-align: right"
+          >
+            <a
+              id="topnav-reserve-popup-button-homepage"
+              data-toggle-reserve-popup="open"
+              class="nav-button cursor-pointer"
+              >Enquire</a>
+          </div>
+        </div>
+
+        <div
+          id="cookies-info"
+          class="transition-opacity duration-300 select-none"
+        >
+          <div class="container flex flex-col md:flex-row md:items-center">
+            <div class="p-[15px]">
+              By clicking “Accept”, you agree to the storing of cookies on your
+              device to enhance site navigation, analyze site usage, and assist
+              in our marketing efforts.
+            </div>
+            <div class="uppercase font-semibold flex space-x-[15px] p-[15px]">
+              <a data-cookies-button="decline" class="cursor-pointer opacity-40"
+                >Decline</a
+              >
+              <a data-cookies-button="accept" class="cursor-pointer">Accept</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="fullpage-loader"></div>
+
+        <div id="fullpage">
+<!--          <section id="events" class="events active" data-section="1">-->
+<!--            <div class="events__background">-->
+<!--              <div class="events-background-overlay"></div>-->
+<!--              <img alt="" class="events__earth" src="images/nasa-Q1p7bh3SHj8-unsplash-min.jpg" />-->
+<!--            </div>-->
+
+<!--            <div class="events__title-container js-eventsTitleContainer">-->
+<!--              <span class="events__date js-eventsDate">November 18-27, 2022</span>-->
+<!--              <p class="js-eventsTitle">Los Angeles Auto Show</p>-->
+<!--            </div>-->
+
+<!--            <button class="events__arrow events__arrow&#45;&#45;left js-eventsArrowLeft hidden" type="button"></button>-->
+<!--            <button class="events__arrow events__arrow&#45;&#45;right js-eventsArrowRight" type="button"></button>-->
+
+<!--            <div class="events__map-container">-->
+<!--              <div class="events__map js-eventsMap">-->
+<!--                <img alt="" class="events__grid" src="images/map.png" />-->
+<!--                <div id="los-angeles" class="events__region">-->
+<!--                  <div-->
+<!--                      id="los-angeles-pin"-->
+<!--                      class="events__pin js-eventsPin"-->
+<!--                      data-date="October 27, 2022"-->
+<!--                      data-title="Petersen Museum, L.A. Charge Cars USA Debut"-->
+<!--                      style="top: 9vh; left: 3vh;"-->
+<!--                  >-->
+<!--                    <svg class="events__pin-logo">-->
+<!--                      <use xlink:href="#icon-logo"></use>-->
+<!--                    </svg>-->
+<!--                  </div>-->
+<!--                  <div-->
+<!--                      id="los-angeles2-pin"-->
+<!--                      class="events__pin js-eventsPin active"-->
+<!--                      data-date="November 18-27, 2022"-->
+<!--                      data-title="Los Angeles Auto Show"-->
+<!--                      style="top: 21vh; left: 8vh;"-->
+<!--                  >-->
+<!--                    <svg class="events__pin-logo">-->
+<!--                      <use xlink:href="#icon-logo"></use>-->
+<!--                    </svg>-->
+<!--                  </div>-->
+<!--                  <img alt="" class="events__state js-eventsState" src="images/CALIFORTNIA.svg" />-->
+<!--                </div>-->
+<!--                <div-->
+<!--                    id="ny" class="events__region">-->
+<!--                  <div-->
+<!--                      id="ny-pin"-->
+<!--                      class="events__pin js-eventsPin"-->
+<!--                      data-date="Date TBC"-->
+<!--                      data-title="New York Event TBC"-->
+<!--                      style="top: 3vh; left: 10vh;"-->
+<!--                  >-->
+<!--                    <svg class="events__pin-logo">-->
+<!--                      <use xlink:href="#icon-logo"></use>-->
+<!--                    </svg>-->
+<!--                  </div>-->
+<!--                  <img alt="" class="events__state js-eventsState" src="images/NY.svg" />-->
+<!--                </div>-->
+<!--                <div-->
+<!--                    id="florida" class="events__region">-->
+<!--                  <div-->
+<!--                      id="florida-pin"-->
+<!--                      class="events__pin js-eventsPin"-->
+<!--                      data-date="Date TBC"-->
+<!--                      data-title="Miami VIP Event TBC"-->
+<!--                      style="top: 6vh; left: 17vh;"-->
+<!--                  >-->
+<!--                    <svg class="events__pin-logo">-->
+<!--                      <use xlink:href="#icon-logo"></use>-->
+<!--                    </svg>-->
+<!--                  </div>-->
+<!--                  <img alt="" class="events__state js-eventsState" src="images/FLORIDA.svg" />-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </section>-->
+
+          <section
+            data-scroll-speed="10"
+            data-min-percentage-video-showed-to-leave="95"
+            id="vision-statement"
+            data-section="1"
+            class="with-parted-video active"
+          >
+            <div
+              class="absolute inset-0 overflow-hidden z-20 pointer-events-none w-full text-center text-white h1"
+              style="font-weight: 400;"
+            >
+              <video
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                poster="/uploads/videos-cover/vision-statement-1.jpg"
+                class="skip-level-pause top-0 inset-x-0 w-full h-full z-10 relative transition-all duration-200 object-cover"
+                style="height: 100%"
+              >
+                <source src="/videos/vision-statement-1.mp4" type="video/mp4" />
+              </video>
+
+              <div class="vision-statement__title-container w-content">
+                <div class="vision-statement__title js-visionStatementTitle">
+                  <div>
+                    We are Charge Cars
+                  </div>
+                </div>
+
+                <div class="vision-statement__subtitle js-visionStatementSubtitle">
+                  <div>
+                    A technology company that creates brand new electric cars
+                  </div>
+                </div>
+              </div>
+
+              <div
+                data-prevent-autoplay
+                data-video-element="part-arrow"
+                class="element-bottom transition-opacity duration-300 flex flex-col items-center space-y-[22px] text-white text-center"
+                style="opacity: 0"
+              >
+                <a>
+                  <svg
+                    class="w-[36px] h-[36px] text-white animate-bounce"
+                    aria-hidden="true"
+                    focusable="true"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <use xlink:href="#icon-arrow-down"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div data-video-parts class="very-hidden">
+              <a data-video-part data-part-duration="0.75" class="ready">
+                <div></div>
+              </a>
+            </div>
+          </section>
+
+          <section
+            data-scroll-speed="10"
+            data-min-percentage-video-showed-to-leave="95"
+            id="product"
+            data-section="3"
+            class="with-parted-video with-bottom-indicator"
+          >
+            <div
+              class="absolute inset-0 overflow-hidden z-20 pointer-events-none"
+            >
+              <div
+                data-video-container="original"
+                class="absolute inset-0 flex justify-center active"
+              >
+                <video
+                  muted
+                  preload="metadata"
+                  poster="/uploads/videos-cover/product-1.jpg"
+                  playsinline
+                  class="w-full h-auto relative z-10 object-cover"
+                >
+                  <source
+                    src="/videos/product-1.mp4#t=0.001"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div
+                data-video-container="reverse"
+                class="absolute inset-0 flex justify-center"
+              >
+                <video
+                  muted
+                  preload="metadata"
+                  playsinline
+                  class="w-full h-auto relative z-10 object-cover"
+                >
+                  <source
+                    src="/videos/product-1-reverse.mp4#t=0.001"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+
+              <div data-video-arrows>
+                <a data-video-arrow="left"></a>
+                <a data-video-arrow="right"></a>
+              </div>
+
+              <div
+                data-video-element="part-1"
+                class="element-bottom flex flex-col items-center transition-opacity duration-300 text-white text-center"
+                style="opacity: 0"
+              >
+                <div
+                  data-transform-element="transform-1"
+                  data-transform-from="translateY(0px)"
+                  data-transform-active="translateY(0px)"
+                  data-transform-to="translateY(-100px)"
+                  class="flex flex-col items-center space-y-[12px] lg:space-y-[18px] w-content transition-transform duration-300"
+                >
+                  <h2 class="h2">
+                    <span class="font-light">This is the ‘67 by Charge Cars.</span>
+                  </h2>
+                  <div>
+                    <span class="text-hotfix">One of the most iconic muscle cars of all time. Built using new, steel bodyshells.</span>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                data-video-element="pin-2"
+                class="transition-opacity duration-300"
+                style="
+                  opacity: 0;
+                  top: 56%;
+                  left: 31%;
+                  right: 30px;
+                  bottom: 100px;
+                "
+              >
+                <div class="pin-container h-full">
+                  <div class="dot"></div>
+                  <div class="line" style="height: 150px"></div>
+                  <div class="text" style="max-width: 460px">
+                    <div>New, steel bodyshell</div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                data-video-element="pin-3"
+                class="transition-opacity duration-300"
+                style="
+                  opacity: 0;
+                  top: 120px;
+                  left: 55.5%;
+                  right: 30px;
+                  bottom: 61%;
+                "
+              >
+                <div class="pin-container justify-end h-full">
+                  <div class="text" style="max-width: 230px">
+                    <div>Floor-mounted battery pack</div>
+                  </div>
+                  <div class="line" style="height: 150px"></div>
+                  <div class="dot"></div>
+                </div>
+              </div>
+
+              <div
+                data-video-element="pin-4"
+                class="transition-opacity duration-300"
+                style="
+                  opacity: 0;
+                  top: 56%;
+                  left: 46%;
+                  right: 30px;
+                  bottom: 100px;
+                "
+              >
+                <div class="pin-container h-full">
+                  <div class="dot"></div>
+                  <div class="line" style="height: 150px"></div>
+                  <div class="text" style="max-width: 460px">
+                    <div>Permanent magnet e-motors</div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                data-video-element="pin-5"
+                class="transition-opacity duration-300"
+                style="
+                  opacity: 0;
+                  top: 120px;
+                  left: 66.5%;
+                  right: 30px;
+                  bottom: 52%;
+                "
+              >
+                <div class="pin-container justify-end h-full">
+                  <div class="text" style="max-width: 230px">
+                    <div>Composite body panels</div>
+                  </div>
+                  <div class="line" style="height: 150px"></div>
+                  <div class="dot"></div>
+                </div>
+              </div>
+
+              <div
+                data-video-element="pin-6"
+                class="transition-opacity duration-300"
+                style="
+                  opacity: 0;
+                  top: 120px;
+                  left: 47.5%;
+                  right: 30px;
+                  bottom: 47.5%;
+                "
+              >
+                <div class="pin-container justify-end h-full">
+                  <div class="text" style="max-width: 230px">
+                    <div>Michelin tyre technology</div>
+                  </div>
+                  <div class="line" style="height: 150px"></div>
+                  <div class="dot"></div>
+                </div>
+              </div>
+
+              <div
+                data-video-element="part-7"
+                class="element-bottom transition-opacity duration-300 flex flex-col items-center space-y-[22px] text-white text-center"
+                style="opacity: 0"
+              >
+                <a
+                  id="homepage-product-history-button"
+                  target="_blank"
+                  data-prevent-autoplay
+                  href="/product.html"
+                  class="content-button"
+                  >Learn more about our Product
+                  <svg
+                    class="rounded-[2px] ml-[5px] inline w-[18px] h-[18px] text-white"
+                    aria-hidden="true"
+                    focusable="true"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <use xlink:href="#icon-next"></use></svg></a>
+              </div>
+            </div>
+
+            <div data-video-parts>
+              <a
+                data-video-part
+                data-part-duration="2"
+                data-video-timestamp="0"
+              >
+                <div></div>
+              </a>
+              <a
+                data-video-part
+                data-part-duration="2"
+                data-video-timestamp="2.11"
+              >
+                <div></div>
+              </a>
+              <a
+                data-video-part
+                data-part-duration="2"
+                data-video-timestamp="4.9"
+              >
+                <div></div>
+              </a>
+              <a
+                data-video-part
+                data-part-duration="2"
+                data-video-timestamp="7.1"
+              >
+                <div></div>
+              </a>
+              <a
+                data-video-part
+                data-part-duration="2"
+                data-video-timestamp="9.6"
+              >
+                <div></div>
+              </a>
+              <a
+                data-video-part
+                data-part-duration="2"
+                data-video-timestamp="12.05"
+              >
+                <div></div>
+              </a>
+              <a
+                data-video-part
+                data-part-duration="2"
+                data-video-timestamp="14.4"
+              >
+                <div></div>
+              </a>
+            </div>
+          </section>
+          <section id="product-2" data-section="4">
+            <div
+              class="absolute top-0 inset-x-0 h-[80px] pointer-events-none"
+              style="
+                z-index: 30;
+                background: linear-gradient(
+                  180deg,
+                  rgba(0, 0, 0, 0.6) 0%,
+                  rgba(0, 0, 0, 0) 100%
+                );
+              "
+            ></div>
+            <div
+              class="absolute inset-0 flex justify-center overflow-hidden z-20 pointer-events-none w-full"
+            >
+              <video
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                class="skip-level-pause top-0 inset-x-0 w-full h-full z-10 relative transition-all duration-200 object-cover"
+                style="height: 100%"
+              >
+                <source src="/videos/product-2.mp4" type="video/mp4" />
+              </video>
+
+              <div
+                data-video-element="part-1"
+                class="element-center text-center text-white h1 transition-opacity duration-300 flex justify-center"
+                style="opacity: 0"
+              >
+                <div class="w-content">
+                  <span id="homepage-product-2-text" class="font-light">The ‘67 by Charge Cars.<br />A legend Reborn.</span>
+                </div>
+              </div>
+
+              <div
+                data-prevent-autoplay
+                data-video-element="part-arrow"
+                class="element-bottom transition-opacity duration-300 flex flex-col items-center space-y-[22px] text-white text-center"
+                style="opacity: 0"
+              >
+                <a>
+                  <svg
+                    class="w-[36px] h-[36px] text-white animate-bounce"
+                    aria-hidden="true"
+                    focusable="true"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <use xlink:href="#icon-arrow-down"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div
+              class="absolute bottom-0 inset-x-0 h-[80px] pointer-events-none"
+              style="
+                z-index: 30;
+                background: linear-gradient(
+                  180deg,
+                  rgba(0, 0, 0, 0) 0%,
+                  rgba(0, 0, 0, 0.6) 100%
+                );
+              "
+            ></div>
+
+            <div data-scroll class="relative z-10">
+              <div class="relative" style="height: 100vh"></div>
+            </div>
+          </section>
+
+          <section id="product-3" data-section="5">
+            <div
+              class="absolute inset-0 flex justify-center overflow-hidden z-20 pointer-events-none w-full"
+            >
+              <video
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                class="skip-level-pause top-0 inset-x-0 w-full h-full z-10 relative transition-all duration-200 object-cover"
+                style="height: 100%"
+              >
+                <source src="/videos/product-3.mp4" type="video/mp4" />
+              </video>
+
+              <div
+                data-video-element="part-1"
+                class="element-center flex flex-col items-center mb-[15px] transition-opacity duration-300 text-white text-center z-10"
+                style="
+                  opacity: 0;
+                  margin-top: -20px;
+                  position: absolute;
+                  padding-right: 0;
+                  padding-left: 0;
+                "
+              >
+                <h2 id="homepage-product-specification-header" class="h3">
+                  <span
+                    style="
+                      font-size: 24px;
+                      letter-spacing: 4px;
+                      text-transform: uppercase;
+                    "
+                    >Specification</span
+                  >
+                </h2>
+
+                <div
+                  class="w-full max-w-[1000px] select-none lg:select-auto"
+                  style="padding-right: 30px; padding-left: 30px"
+                >
+                  <div class="block lg:hidden py-[30px]">
+                    <div id="product-3-mobile-slider" class="splide">
+                      <div class="splide__track">
+                        <ul class="splide__list">
+                          <li class="splide__slide">
+                            <div
+                              data-counter
+                              data-to="63"
+                              class="font-light text-[90px] sm:text-[110px]"
+                              style="
+                                font-family: 'dinnpro';
+                                color: #bdddff;
+                                line-height: 1;
+                              "
+                            >
+                              63
+                            </div>
+                            <div
+                              class="text-[14px] md:text-[16px]"
+                              style="font-weight: 400; letter-spacing: 4px"
+                            >
+                              kWh<br />BATTERY
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <div
+                              data-counter
+                              data-to="50"
+                              class="font-light text-[90px] sm:text-[110px]"
+                              style="
+                                font-family: 'dinnpro';
+                                color: #bdddff;
+                                line-height: 1;
+                              "
+                            >
+                              50
+                            </div>
+                            <div
+                              class="text-[14px] md:text-[16px]"
+                              style="font-weight: 400; letter-spacing: 4px"
+                            >
+                              kW<br />DC CHARGING
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <div
+                              data-counter
+                              data-to="200"
+                              class="font-light text-[90px] sm:text-[110px]"
+                              style="
+                                font-family: 'dinnpro';
+                                color: #bdddff;
+                                line-height: 1;
+                              "
+                            >
+                              200
+                            </div>
+                            <div
+                              class="text-[14px] md:text-[16px]"
+                              style="font-weight: 400; letter-spacing: 4px"
+                            >
+                              Miles<br />RANGE
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <div
+                              data-counter
+                              data-to="400"
+                              class="font-light text-[90px] sm:text-[110px]"
+                              style="
+                                font-family: 'dinnpro';
+                                color: #bdddff;
+                                line-height: 1;
+                              "
+                            >
+                              400
+                            </div>
+                            <div
+                              class="text-[14px] md:text-[16px]"
+                              style="font-weight: 400; letter-spacing: 4px"
+                            >
+                              kW<br />PEAK POWER
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <div
+                              data-counter
+                              data-to="3.9"
+                              class="font-light text-[90px] sm:text-[110px]"
+                              style="
+                                font-family: 'dinnpro';
+                                color: #bdddff;
+                                line-height: 1;
+                              "
+                            >
+                              3.9
+                            </div>
+                            <div
+                              class="text-[14px] md:text-[16px]"
+                              style="font-weight: 400; letter-spacing: 4px"
+                            >
+                              Seconds<br />0-60mph
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    id="product-3-specification-wrapper"
+                    class="float-left lg:float-none hidden lg:block"
+                  >
+                    <div
+                      id="product-3-specification-list"
+                      class="flex lg:flex-wrap justify-center text-[16px]"
+                    >
+                      <div class="w-1/3 py-[30px] px-[30px] lg:px-[0px]">
+                        <div
+                          data-counter
+                          data-to="63"
+                          class="font-light text-[90px] sm:text-[110px]"
+                          style="
+                            font-family: 'dinnpro';
+                            color: #bdddff;
+                            line-height: 1;
+                          "
+                        >
+                          63
+                        </div>
+                        <div
+                          class="text-[14px] md:text-[16px]"
+                          style="font-weight: 400; letter-spacing: 4px"
+                        >
+                          kWh<br />BATTERY
+                        </div>
+                      </div>
+
+                      <div class="w-1/3 py-[30px] px-[30px] lg:px-[0px]">
+                        <div
+                          data-counter
+                          data-to="50"
+                          class="font-light text-[90px] sm:text-[110px]"
+                          style="
+                            font-family: 'dinnpro';
+                            color: #bdddff;
+                            line-height: 1;
+                          "
+                        >
+                          50
+                        </div>
+                        <div
+                          class="text-[14px] md:text-[16px]"
+                          style="font-weight: 400; letter-spacing: 4px"
+                        >
+                          kW<br />DC CHARGING
+                        </div>
+                      </div>
+
+                      <div class="w-1/3 py-[30px] px-[30px] lg:px-[0px]">
+                        <div
+                          data-counter
+                          data-to="200"
+                          class="font-light text-[90px] sm:text-[110px]"
+                          style="
+                            font-family: 'dinnpro';
+                            color: #bdddff;
+                            line-height: 1;
+                          "
+                        >
+                          200
+                        </div>
+                        <div
+                          class="text-[14px] md:text-[16px]"
+                          style="font-weight: 400; letter-spacing: 4px"
+                        >
+                          Miles<br />RANGE
+                        </div>
+                      </div>
+
+                      <div class="w-1/3 py-[30px] px-[30px] lg:px-[0px]">
+                        <div
+                          data-counter
+                          data-to="400"
+                          class="font-light text-[90px] sm:text-[110px]"
+                          style="
+                            font-family: 'dinnpro';
+                            color: #bdddff;
+                            line-height: 1;
+                          "
+                        >
+                          400
+                        </div>
+                        <div
+                          class="text-[14px] md:text-[16px]"
+                          style="font-weight: 400; letter-spacing: 4px"
+                        >
+                          kW<br />PEAK POWER
+                        </div>
+                      </div>
+
+                      <div class="w-1/3 py-[30px] px-[30px] lg:px-[0px]">
+                        <div
+                          data-counter
+                          data-to="3.9"
+                          class="font-light text-[90px] sm:text-[110px]"
+                          style="
+                            font-family: 'dinnpro';
+                            color: #bdddff;
+                            line-height: 1;
+                          "
+                        >
+                          3.9
+                        </div>
+                        <div
+                          class="text-[14px] md:text-[16px]"
+                          style="font-weight: 400; letter-spacing: 4px"
+                        >
+                          Seconds<br />0-60mph
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                data-video-element="part-1"
+                class="element-bottom transition-opacity duration-300 flex flex-col items-center space-y-[32px] text-white text-center z-20"
+                style="opacity: 0"
+              >
+                <a
+                  id="homepage-product-specification-button"
+                  target="_blank"
+                  data-prevent-autoplay
+                  href="/product.html"
+                  class="content-button"
+                  >Full technical specification
+                  <svg
+                    class="rounded-[2px] ml-[5px] inline w-[18px] h-[18px] text-white"
+                    aria-hidden="true"
+                    focusable="true"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <use xlink:href="#icon-next"></use></svg></a>
+
+                <div data-video-element="part-arrow" style="position: relative">
+                  <a data-prevent-autoplay>
+                    <svg
+                      class="w-[36px] h-[36px] text-white animate-bounce"
+                      aria-hidden="true"
+                      focusable="true"
+                      role="img"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <use xlink:href="#icon-arrow-down"></use>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div data-scroll class="relative z-10">
+              <div class="relative" style="height: 100vh"></div>
+            </div>
+          </section>
+
+          <section id="gallery" data-section="6" class="with-gallery relative">
+            <div
+              data-gallery-slide
+              class="slide"
+              style="background-image: url('/uploads/gallery/1.jpg')"
+            >
+              <a
+                data-download
+                target="_blank"
+                rel="nofollow"
+                class="text-white"
+                href="/uploads/gallery/fullsize/1.jpg"
+              >
+                <svg
+                  class="w-[26px] h-[26px] text-white"
+                  aria-hidden="true"
+                  focusable="true"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use xlink:href="#icon-download"></use>
+                </svg>
+                8K
+              </a>
+            </div>
+            <div
+              data-gallery-slide
+              class="slide"
+              style="background-image: url('/uploads/gallery/2.jpg')"
+            >
+              <a
+                data-download
+                target="_blank"
+                rel="nofollow"
+                class="text-white"
+                href="/uploads/gallery/fullsize/2.jpg"
+              >
+                <svg
+                  class="w-[26px] h-[26px] text-white"
+                  aria-hidden="true"
+                  focusable="true"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use xlink:href="#icon-download"></use>
+                </svg>
+                8K
+              </a>
+            </div>
+            <div
+              data-gallery-slide
+              class="slide"
+              style="background-image: url('/uploads/gallery/3.jpg')"
+            >
+              <a
+                data-download
+                target="_blank"
+                rel="nofollow"
+                class="text-white"
+                href="/uploads/gallery/fullsize/3.jpg"
+              >
+                <svg
+                  class="w-[26px] h-[26px] text-white"
+                  aria-hidden="true"
+                  focusable="true"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use xlink:href="#icon-download"></use>
+                </svg>
+                8K
+              </a>
+            </div>
+            <div
+              data-gallery-slide
+              class="slide"
+              style="background-image: url('/uploads/gallery/4.jpg')"
+            >
+              <a
+                data-download
+                target="_blank"
+                rel="nofollow"
+                class="text-white"
+                href="/uploads/gallery/fullsize/4.jpg"
+              >
+                <svg
+                  class="w-[26px] h-[26px] text-white"
+                  aria-hidden="true"
+                  focusable="true"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use xlink:href="#icon-download"></use>
+                </svg>
+                8K
+              </a>
+            </div>
+            <div
+              data-gallery-slide
+              class="slide"
+              style="background-image: url('/uploads/gallery/5.jpg')"
+            >
+              <a
+                data-download
+                target="_blank"
+                rel="nofollow"
+                class="text-white"
+                href="/uploads/gallery/fullsize/5.jpg"
+              >
+                <svg
+                  class="w-[26px] h-[26px] text-white"
+                  aria-hidden="true"
+                  focusable="true"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use xlink:href="#icon-download"></use>
+                </svg>
+                8K
+              </a>
+            </div>
+            <div
+              data-gallery-slide
+              class="slide"
+              style="background-image: url('/uploads/gallery/6.jpg')"
+            >
+              <a
+                data-download
+                target="_blank"
+                rel="nofollow"
+                class="text-white"
+                href="/uploads/gallery/fullsize/6.jpg"
+              >
+                <svg
+                  class="w-[26px] h-[26px] text-white"
+                  aria-hidden="true"
+                  focusable="true"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use xlink:href="#icon-download"></use>
+                </svg>
+                8K
+              </a>
+            </div>
+            <div
+              data-gallery-slide
+              class="slide"
+              style="background-image: url('/uploads/gallery/7.jpg')"
+            >
+              <a
+                data-download
+                target="_blank"
+                rel="nofollow"
+                class="text-white"
+                href="/uploads/gallery/fullsize/7.jpg"
+              >
+                <svg
+                  class="w-[26px] h-[26px] text-white"
+                  aria-hidden="true"
+                  focusable="true"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use xlink:href="#icon-download"></use>
+                </svg>
+                8K
+              </a>
+            </div>
+            <div
+              data-gallery-slide
+              class="slide"
+              style="background-image: url('/uploads/gallery/8.jpg')"
+            >
+              <a
+                data-download
+                target="_blank"
+                rel="nofollow"
+                class="text-white"
+                href="/uploads/gallery/fullsize/8.jpg"
+              >
+                <svg
+                  class="w-[26px] h-[26px] text-white"
+                  aria-hidden="true"
+                  focusable="true"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use xlink:href="#icon-download"></use>
+                </svg>
+                8K
+              </a>
+            </div>
+            <div
+              data-gallery-slide
+              class="slide"
+              style="background-image: url('/uploads/gallery/9.jpg')"
+            >
+              <a
+                data-download
+                target="_blank"
+                rel="nofollow"
+                class="text-white"
+                href="/uploads/gallery/fullsize/9.jpg"
+              >
+                <svg
+                  class="w-[26px] h-[26px] text-white"
+                  aria-hidden="true"
+                  focusable="true"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use xlink:href="#icon-download"></use>
+                </svg>
+                8K
+              </a>
+            </div>
+            <div
+              data-gallery-slide
+              class="slide"
+              style="background-image: url('/uploads/gallery/10.jpg')"
+            >
+              <a
+                data-download
+                target="_blank"
+                rel="nofollow"
+                class="text-white"
+                href="/uploads/gallery/fullsize/10.jpg"
+              >
+                <svg
+                  class="w-[26px] h-[26px] text-white"
+                  aria-hidden="true"
+                  focusable="true"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use xlink:href="#icon-download"></use>
+                </svg>
+                8K
+              </a>
+            </div>
+            <div
+              data-gallery-slide
+              class="slide"
+              style="background-image: url('/uploads/gallery/11.jpg')"
+            >
+              <a
+                data-download
+                target="_blank"
+                rel="nofollow"
+                class="text-white"
+                href="/uploads/gallery/fullsize/11.jpg"
+              >
+                <svg
+                  class="w-[26px] h-[26px] text-white"
+                  aria-hidden="true"
+                  focusable="true"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use xlink:href="#icon-download"></use>
+                </svg>
+                8K
+              </a>
+            </div>
+            <div
+              data-gallery-slide
+              class="slide"
+              style="background-image: url('/uploads/gallery/12.jpg')"
+            >
+              <a
+                data-download
+                target="_blank"
+                rel="nofollow"
+                class="text-white"
+                href="/uploads/gallery/fullsize/12.jpg"
+              >
+                <svg
+                  class="w-[26px] h-[26px] text-white"
+                  aria-hidden="true"
+                  focusable="true"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use xlink:href="#icon-download"></use>
+                </svg>
+                8K
+              </a>
+            </div>
+            <div
+              data-gallery-slide
+              class="slide"
+              style="background-image: url('/uploads/gallery/13.jpg')"
+            >
+              <a
+                data-download
+                target="_blank"
+                rel="nofollow"
+                class="text-white"
+                href="/uploads/gallery/fullsize/13.jpg"
+              >
+                <svg
+                  class="w-[26px] h-[26px] text-white"
+                  aria-hidden="true"
+                  focusable="true"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use xlink:href="#icon-download"></use>
+                </svg>
+                8K
+              </a>
+            </div>
+            <div
+              data-gallery-slide
+              class="slide"
+              style="background-image: url('/uploads/gallery/14.jpg')"
+            >
+              <a
+                data-download
+                target="_blank"
+                rel="nofollow"
+                class="text-white"
+                href="/uploads/gallery/fullsize/14.jpg"
+              >
+                <svg
+                  class="w-[26px] h-[26px] text-white"
+                  aria-hidden="true"
+                  focusable="true"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use xlink:href="#icon-download"></use>
+                </svg>
+                8K
+              </a>
+            </div>
+            <div
+              data-gallery-slide
+              class="slide"
+              style="background-image: url('/uploads/gallery/15.jpg')"
+            >
+              <a
+                data-download
+                target="_blank"
+                rel="nofollow"
+                class="text-white"
+                href="/uploads/gallery/fullsize/15.jpg"
+              >
+                <svg
+                  class="w-[26px] h-[26px] text-white"
+                  aria-hidden="true"
+                  focusable="true"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use xlink:href="#icon-download"></use>
+                </svg>
+                8K
+              </a>
+            </div>
+            <div
+              data-gallery-slide
+              class="slide"
+              style="background-image: url('/uploads/gallery/16.jpg')"
+            >
+              <a
+                data-download
+                target="_blank"
+                rel="nofollow"
+                class="text-white"
+                href="/uploads/gallery/fullsize/16.jpg"
+              >
+                <svg
+                  class="w-[26px] h-[26px] text-white"
+                  aria-hidden="true"
+                  focusable="true"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use xlink:href="#icon-download"></use>
+                </svg>
+                8K
+              </a>
+            </div>
+            <div
+              data-gallery-slide
+              class="slide"
+              style="background-image: url('/uploads/gallery/17.jpg')"
+            >
+              <a
+                data-download
+                target="_blank"
+                rel="nofollow"
+                class="text-white"
+                href="/uploads/gallery/fullsize/17.jpg"
+              >
+                <svg
+                  class="w-[26px] h-[26px] text-white"
+                  aria-hidden="true"
+                  focusable="true"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use xlink:href="#icon-download"></use>
+                </svg>
+                8K
+              </a>
+            </div>
+
+            <div
+              class="absolute inset-0 flex justify-center overflow-hidden z-20 pointer-events-none w-full"
+            >
+              <div id="gallery-preview-slider-wrapper">
+                <div
+                  class="block overflow-hidden"
+                  style="padding: 0 50px; max-width: 700px"
+                >
+                  <div data-gallery-preview>
+                    <div id="gallery-preview-slider" class="splide">
+                      <div class="splide__track">
+                        <ul class="splide__list">
+                          <li class="splide__slide">
+                            <a
+                              data-gallery-selector="1"
+                              class="active"
+                              style="
+                                background-image: url('/uploads/gallery/preview/1.jpg');
+                              "
+                            ></a>
+                          </li>
+                          <li class="splide__slide">
+                            <a
+                              data-gallery-selector="2"
+                              style="
+                                background-image: url('/uploads/gallery/preview/2.jpg');
+                              "
+                            ></a>
+                          </li>
+                          <li class="splide__slide">
+                            <a
+                              data-gallery-selector="3"
+                              style="
+                                background-image: url('/uploads/gallery/preview/3.jpg');
+                              "
+                            ></a>
+                          </li>
+                          <li class="splide__slide">
+                            <a
+                              data-gallery-selector="4"
+                              style="
+                                background-image: url('/uploads/gallery/preview/4.jpg');
+                              "
+                            ></a>
+                          </li>
+                          <li class="splide__slide">
+                            <a
+                              data-gallery-selector="5"
+                              style="
+                                background-image: url('/uploads/gallery/preview/5.jpg');
+                              "
+                            ></a>
+                          </li>
+                          <li class="splide__slide">
+                            <a
+                              data-gallery-selector="6"
+                              style="
+                                background-image: url('/uploads/gallery/preview/6.jpg');
+                              "
+                            ></a>
+                          </li>
+                          <li class="splide__slide">
+                            <a
+                              data-gallery-selector="7"
+                              style="
+                                background-image: url('/uploads/gallery/preview/7.jpg');
+                              "
+                            ></a>
+                          </li>
+                          <li class="splide__slide">
+                            <a
+                              data-gallery-selector="8"
+                              style="
+                                background-image: url('/uploads/gallery/preview/8.jpg');
+                              "
+                            ></a>
+                          </li>
+                          <li class="splide__slide">
+                            <a
+                              data-gallery-selector="9"
+                              style="
+                                background-image: url('/uploads/gallery/preview/9.jpg');
+                              "
+                            ></a>
+                          </li>
+                          <li class="splide__slide">
+                            <a
+                              data-gallery-selector="10"
+                              style="
+                                background-image: url('/uploads/gallery/preview/10.jpg');
+                              "
+                            ></a>
+                          </li>
+                          <li class="splide__slide">
+                            <a
+                              data-gallery-selector="11"
+                              style="
+                                background-image: url('/uploads/gallery/preview/11.jpg');
+                              "
+                            ></a>
+                          </li>
+                          <li class="splide__slide">
+                            <a
+                              data-gallery-selector="12"
+                              style="
+                                background-image: url('/uploads/gallery/preview/12.jpg');
+                              "
+                            ></a>
+                          </li>
+                          <li class="splide__slide">
+                            <a
+                              data-gallery-selector="13"
+                              style="
+                                background-image: url('/uploads/gallery/preview/13.jpg');
+                              "
+                            ></a>
+                          </li>
+                          <li class="splide__slide">
+                            <a
+                              data-gallery-selector="14"
+                              style="
+                                background-image: url('/uploads/gallery/preview/14.jpg');
+                              "
+                            ></a>
+                          </li>
+                          <li class="splide__slide">
+                            <a
+                              data-gallery-selector="15"
+                              style="
+                                background-image: url('/uploads/gallery/preview/15.jpg');
+                              "
+                            ></a>
+                          </li>
+                          <li class="splide__slide">
+                            <a
+                              data-gallery-selector="16"
+                              style="
+                                background-image: url('/uploads/gallery/preview/16.jpg');
+                              "
+                            ></a>
+                          </li>
+                          <li class="splide__slide">
+                            <a
+                              data-gallery-selector="17"
+                              style="
+                                background-image: url('/uploads/gallery/preview/17.jpg');
+                              "
+                            ></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="technology" data-section="7">
+            <div
+              class="absolute inset-0 flex justify-center overflow-hidden z-20 pointer-events-none w-full"
+            >
+              <video
+                muted
+                playsinline
+                preload="metadata"
+                class="skip-level-pause top-0 inset-x-0 w-full h-full z-10 relative transition-all duration-200 object-cover"
+                style="height: 100%"
+              >
+                <source src="/videos/technology-1.mp4" type="video/mp4" />
+              </video>
+
+              <div
+                data-video-element="part-1"
+                class="element-bottom text-white flex justify-end transition-opacity duration-300"
+                style="opacity: 0"
+              >
+                <div
+                  data-transform-element="transform-1"
+                  data-transform-from="translateY(200%)"
+                  data-transform-active="translateY(0px)"
+                  data-transform-to="translateY(200%)"
+                  class="w-content-half flex flex-col space-y-[40px] transition-transform duration-500"
+                >
+                  <div class="w-content-half flex flex-col space-y-[12px]">
+                    <h2 id="homepage-technology-header" class="h2">
+                      <span class="font-light"
+                        >Our technology is what sets us apart.</span
+                      >
+                    </h2>
+                    <div class="text-hotfix">
+                      Working in collaboration with EV technology partner
+                      Arrival, our cars benefit from the most advanced
+                      automotive technology available.
+                    </div>
+                  </div>
+                  <div>
+                    <a
+                      id="homepage-technology-button"
+                      target="_blank"
+                      data-prevent-autoplay
+                      href="/technology.html"
+                      class="content-button"
+                      >Learn more about our technology
+                      <svg
+                        class="rounded-[2px] ml-[5px] inline w-[18px] h-[18px] text-white"
+                        aria-hidden="true"
+                        focusable="true"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <use xlink:href="#icon-next"></use></svg>
+					</a>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                data-prevent-autoplay
+                data-video-element="part-arrow"
+                class="element-bottom transition-opacity duration-300 flex flex-col items-center space-y-[22px] text-white text-center"
+              >
+                <a>
+                  <svg
+                    class="w-[36px] h-[36px] text-white animate-bounce"
+                    aria-hidden="true"
+                    focusable="true"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <use xlink:href="#icon-arrow-down"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div data-scroll class="relative z-10">
+              <div class="relative" style="height: 100vh"></div>
+            </div>
+          </section>
+          <section id="bespoke-expierence" data-section="8">
+            <div
+              class="absolute inset-0 flex justify-center overflow-hidden z-20 pointer-events-none w-full"
+            >
+              <video
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                class="skip-level-pause top-0 inset-x-0 w-full h-full z-10 relative transition-all duration-200 object-cover"
+                style="height: 100%"
+              >
+                <source
+                  src="/videos/bespoke-expierence-1.mp4"
+                  type="video/mp4"
+                />
+              </video>
+
+              <div
+                data-video-element="part-1"
+                class="element-center text-center text-white h1 transition-opacity duration-300 flex justify-center"
+                style="opacity: 0"
+              >
+                <div class="w-content transition-transform duration-300">
+                  <span
+                    id="homepage-bespoke-expierence-1-text"
+                    class="font-light"
+                    >Ordering your Charge Car is a special experience.</span
+                  >
+                </div>
+              </div>
+
+              <div
+                data-prevent-autoplay
+                data-video-element="part-arrow"
+                class="element-bottom transition-opacity duration-300 flex flex-col items-center space-y-[22px] text-white text-center"
+              >
+                <a>
+                  <svg
+                    class="w-[36px] h-[36px] text-white animate-bounce"
+                    aria-hidden="true"
+                    focusable="true"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <use xlink:href="#icon-arrow-down"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div data-scroll class="relative z-10">
+              <div class="relative" style="height: 100vh"></div>
+            </div>
+          </section>
+
+          <section id="bespoke-expierence-2" data-section="9">
+            <div
+              class="absolute inset-0 flex justify-center overflow-hidden z-20 pointer-events-none w-full"
+            >
+              <video
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                class="skip-level-pause top-0 inset-x-0 w-full h-full z-10 relative transition-all duration-200 object-cover"
+                style="height: 100%"
+              >
+                <source
+                  src="/videos/bespoke-expierence-2.mp4"
+                  type="video/mp4"
+                />
+              </video>
+
+              <div
+                data-video-element="part-1"
+                class="element-center text-center text-white h1 transition-opacity duration-300 flex justify-center"
+                style="opacity: 0"
+              >
+                <div class="w-content transition-transform duration-300">
+                  <span
+                    id="homepage-bespoke-expierence-2-text"
+                    class="font-light"
+                    >A digital platform delivering a fully connected driving
+                    experience.</span>
+                </div>
+              </div>
+
+              <div
+                data-prevent-autoplay
+                data-video-element="part-arrow"
+                class="element-bottom transition-opacity duration-300 flex flex-col items-center space-y-[22px] text-white text-center"
+              >
+                <a>
+                  <svg
+                    class="w-[36px] h-[36px] text-white animate-bounce"
+                    aria-hidden="true"
+                    focusable="true"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <use xlink:href="#icon-arrow-down"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div data-scroll class="relative z-10">
+              <div class="relative" style="height: 100vh"></div>
+            </div>
+          </section>
+
+          <section
+            data-min-percentage-video-showed-to-leave="95"
+            id="bespoke-expierence-3"
+            data-section="10"
+            class="with-parted-video"
+          >
+            <div
+              class="absolute inset-0 overflow-hidden z-20 pointer-events-none"
+            >
+              <div
+                data-video-element-bg="bg-1"
+                class="absolute inset-0 bg-cover bg-center transition-opacity duration-800"
+                style="
+                  background-image: url('/uploads/bespoke-experience-1.jpg');
+                "
+              ></div>
+              <div
+                data-video-element-bg="bg-2"
+                class="absolute inset-0 bg-cover bg-center transition-opacity duration-800"
+                style="
+                  background-image: url('/uploads/bespoke-experience-2.jpg');
+                "
+              ></div>
+              <div
+                data-video-element-bg="bg-3"
+                class="absolute inset-0 bg-cover bg-center transition-opacity duration-800"
+                style="
+                  background-image: url('/uploads/bespoke-experience-3.jpg');
+                "
+              ></div>
+
+              <div
+                data-video-element="part-1"
+                class="element-bottom text-white transition-opacity duration-300"
+                style="opacity: 0"
+              >
+                <div
+                  data-transform-element="transform-1"
+                  data-transform-from="translateY(200%)"
+                  data-transform-active="translateY(0px)"
+                  class="w-content-half flex flex-col space-y-[12px] transition-transform duration-500"
+                >
+                  <h2 id="homepage-bespoke-expierence-3-1-header" class="h2">
+                    <span class="font-light">Make it yours.</span>
+                  </h2>
+                  <div class="text-hotfix">
+                    Only 499 cars will be made, each of them uniquely tailored
+                    to the individual customer.
+                  </div>
+                </div>
+              </div>
+
+              <div
+                data-video-element="part-2"
+                class="element-bottom text-white flex justify-end transition-opacity duration-300"
+                style="opacity: 0"
+              >
+                <div
+                  data-transform-element="transform-2"
+                  data-transform-from="translateY(200%)"
+                  data-transform-active="translateY(0px)"
+                  class="w-content-half transition-transform duration-500"
+                >
+                  <div
+                    id="homepage-bespoke-expierence-3-2-text"
+                    class="text-hotfix"
+                  >
+                    We encourage all our customers to personalise their cars, to
+                    express their creativity and personality in the colours,
+                    materials and details.
+                  </div>
+                </div>
+              </div>
+
+              <div
+                data-video-element="part-3"
+                class="element-bottom text-white flex justify-end transition-opacity duration-300"
+                style="opacity: 0"
+              >
+                <div
+                  data-transform-element="transform-3"
+                  data-transform-from="translateY(200%)"
+                  data-transform-active="translateY(0px)"
+                  class="w-content-half transition-transform duration-500"
+                >
+                  <div class="flex flex-col space-y-[40px]">
+                    <div
+                      id="homepage-bespoke-expierence-3-3-text"
+                      class="text-hotfix"
+                    >
+                      Our headquarters are five minutes from London Heathrow
+                      Airport, and our customers are always welcome to visit us.
+                    </div>
+                    <div>
+                      <a
+                        id="homepage-bespoke-expierence-3-3-button"
+                        target="_blank"
+                        data-prevent-autoplay
+                        href="/bespoke-expierence.html"
+                        class="content-button"
+                        >Explore our Customer Studio
+                        <svg
+                          class="rounded-[2px] ml-[5px] inline w-[18px] h-[18px] text-white"
+                          aria-hidden="true"
+                          focusable="true"
+                          role="img"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <use xlink:href="#icon-next"></use></svg>
+						</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                data-prevent-autoplay
+                data-video-element="part-parted-arrow"
+                class="element-bottom transition-opacity duration-300 flex flex-col items-center space-y-[22px] text-white text-center"
+                style="opacity: 0"
+              >
+                <a>
+                  <svg
+                    class="w-[36px] h-[36px] text-white animate-bounce"
+                    aria-hidden="true"
+                    focusable="true"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <use xlink:href="#icon-arrow-down"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div data-video-parts class="very-hidden">
+              <a data-video-part data-part-duration="0.5">
+                <div></div>
+              </a>
+              <a data-video-part data-part-duration="0.5">
+                <div></div>
+              </a>
+              <a data-video-part data-part-duration="0.5">
+                <div></div>
+              </a>
+            </div>
+          </section>
+
+		  <section id="dealerships" data-section="10">
+            <div
+              class="absolute inset-0 flex justify-center overflow-hidden z-20 pointer-events-none w-full"
+            >
+              <video
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                class="skip-level-pause top-0 inset-x-0 w-full h-full z-10 relative transition-all duration-200 object-cover"
+                style="height: 100%"
+              >
+                <source src="/videos/product-3.mp4" type="video/mp4" />
+              </video>
+
+              <div
+                data-video-element="part-1"
+                class="element-center flex flex-col items-center mb-[15px] transition-opacity duration-300 text-white text-center z-10"
+                style="
+                  opacity: 0;
+                  margin-top: -20px;
+                  position: absolute;
+                  padding-right: 0;
+                  padding-left: 0;
+                "
+              >
+                <h2 id="homepage-product-dealerships-header" class="h3" style="padding-bottom: 40px">
+                  <span
+                    style="
+                      font-size: 24px;
+                      letter-spacing: 4px;
+                      text-transform: uppercase;
+                    "
+                    >Dealerships</span
+                  >
+                </h2>
+
+                <div
+                  class="w-full max-w-[1000px] select-none lg:select-auto"
+                  style="padding-right: 30px; padding-left: 30px"
+                >
+                  <div class="block lg:hidden py-[30px]">
+                    <div id="dealership-mobile-slider" class="splide">
+                      <div class="splide__track">
+                        <ul class="splide__list">
+                          <li class="splide__slide">
+							<div class="flex flex-col items-center">
+                            <div class="flex flex-col"  style="text-align: center;">
+								<div class="uppercase font-semibold flex items-center justify-center">Monaco <div class="iti__flag" style="margin-left: 8px; width: 20px; height: 14px; background-position: -2325px 0px"></div></div>
+								<ul data-prevent-autoplay>
+									<li>Classic	Riviera</li>
+									<li>
+										<a href="tel:+33686269155">+33 6 86 26 91 55</a>
+									</li>
+									<li>
+										<a href="mailto:julian@classicriviera.com">julian@classicriviera.com</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    id="dealerships-wrapper"
+                    class="float-left lg:float-none hidden lg:block"
+                  >
+                    <div
+                      id="dealerships-list"
+                      class="flex lg:flex-wrap justify-center text-[16px]"
+                    >
+                      <div class="w-1/3 py-[30px] px-[30px] lg:px-[0px] flex flex-col items-center">
+                        <div class="flex flex-col" style="text-align: center;">
+							<div class="uppercase font-semibold flex items-center  justify-center">Monaco <div class="iti__flag" style="margin-left: 8px; width: 20px; height: 14px; background-position: -2325px 0px;"></div></div>
+							<ul data-prevent-autoplay>
+								<li>Classic	Riviera</li>
+								<li>
+									<a href="tel:+33686269155">+33 6 86 26 91 55</a>
+								</li>
+								<li>
+									<a href="mailto:julian@classicriviera.com">julian@classicriviera.com</a>
+								</li>
+							</ul>
+						</div>
+                      </div>
+
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                data-prevent-autoplay
+                data-video-element="part-arrow"
+                class="element-bottom transition-opacity duration-300 flex flex-col items-center space-y-[22px] text-white text-center"
+              >
+                <a>
+                  <svg
+                    class="w-[36px] h-[36px] text-white animate-bounce"
+                    aria-hidden="true"
+                    focusable="true"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <use xlink:href="#icon-arrow-down"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div data-scroll class="relative z-10">
+              <div class="relative" style="height: 100vh"></div>
+            </div>
+          </section>
+
+          <section id="about-us" data-section="11" class="with-parted-video">
+            <div
+              class="absolute inset-0 flex justify-center overflow-hidden z-20 pointer-events-none w-full"
+            >
+              <video
+                id="homepage-about-us-video"
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                class="skip-level-pause top-0 inset-x-0 w-full h-full z-10 relative transition-all duration-800 object-cover h-full"
+              >
+                <source src="/videos/about-us-1.mp4" type="video/mp4" />
+              </video>
+
+              <div
+                data-video-element="part-2"
+                class="absolute top-1/2 bottom-[42px] inset-x-0 pt-[30px] sm:pt-[60px] px-[30px] z-20 transition-opacity duration-300 text-white"
+                style="opacity: 0"
+              >
+                <div
+                  data-prevent-autoplay
+                  class="relative h-full w-full"
+                  style="overflow: hidden"
+                >
+                  <div id="about-us-scroll" class="absolute inset-0">
+                    <div style="width: 100%; position: absolute">
+                      <div
+                        class="flex flex-col md:flex-row justify-between space-x-[0px] space-y-[20px] md:space-x-[20px] md:space-y-[0px]"
+                      >
+                        <div
+                          id="homepage-about-us-header"
+                          class="w-content-half"
+                        >
+                          <h2 class="h2 hidden md:block">
+                            <span class="font-light"
+                              >Founded in 2016,<br />Charge Cars is based<br />in
+                              London.</span
+                            >
+                          </h2>
+                          <h2 class="h2 block md:hidden">
+                            <span class="font-light"
+                              >Founded in 2016, Charge Cars is based in
+                              London.</span
+                            >
+                          </h2>
+                        </div>
+                        <div
+                          class="w-content-half flex flex-col space-y-[32px] flex-grow flex-shrink text-hotfix"
+                        >
+                          <p>
+                            An experienced team of designers and engineers
+                            develop and assemble our cars using core components
+                            from our technology partner Arrival.
+                          </p>
+                          <p>
+                            Drawing on expertise garnered across many sectors
+                            around the globe, we are a world-class team of
+                            perfectionists, car enthusiasts and technology
+                            geeks. We don't restore cars. We redefine them.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                data-prevent-autoplay
+                data-video-element="part-parted-arrow"
+                class="element-bottom transition-opacity duration-300 flex flex-col items-center space-y-[22px] text-white text-center"
+                style="opacity: 0"
+              >
+                <a>
+                  <svg
+                    class="w-[36px] h-[36px] text-white animate-bounce"
+                    aria-hidden="true"
+                    focusable="true"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <use xlink:href="#icon-arrow-down"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div data-video-parts class="very-hidden">
+              <a data-video-part data-part-duration="0.3">
+                <div></div>
+              </a>
+              <a data-video-part data-part-duration="0.3">
+                <div></div>
+              </a>
+            </div>
+          </section>
+          <section id="contact" data-section="12">
+            <div data-scroll class="relative z-10 w-full">
+              <div class="min-h-screen flex flex-col w-full">
+                <div
+                  class="h-[53px] mt-[45px] relative z-20"
+                  style="pointer-events: none"
+                >
+                  <div
+                    class="absolute top-full inset-x-0 h-[80px]"
+                    style="
+                      background: linear-gradient(
+                        180deg,
+                        #000000 0%,
+                        rgba(0, 0, 0, 0) 100%
+                      );
+                    "
+                  ></div>
+                </div>
+
+                <div
+                  class="flex-grow flex-shrink overflow-hidden relative z-10"
+                  style="min-height: 300px"
+                >
+                  <div
+                    id="map"
+                    class="inset-0"
+                    style="position: absolute; touch-action: none"
+                  ></div>
+                </div>
+
+                <footer class="flex flex-col pt-[130px] relative text-white font-light text-[18px] sm:text-[16px] z-20">
+                  <div class="absolute bottom-full inset-x-0 h-[80px]" style="background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);"></div>
+
+                  <div class="footer__container">
+                    <div class="flex flex-col md:flex-row flex-grow flex-shrink justify-between w-full xl:w-auto">
+                      <div class="flex flex-col space-y-[16px] px-[40px] pb-[32px] w-full md:w-auto">
+                        <span class="h3 uppercase">
+                          <svg
+                            class="w-[38px] h-[38px] text-white inline mr-[12px]"
+                            aria-hidden="true"
+                            focusable="true"
+                            role="img"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <use xlink:href="#icon-logo"></use>
+						</svg>Charge
+                        </span>
+                        <div class="flex flex-col opacity-80 space-y-[5px] pl-[0px] xl:pl-[50px]">
+                          <span>360 Stockley Close</span>
+                          <span>London</span>
+                          <span>UB7 9BL</span>
+                        </div>
+                      </div>
+
+                      <div class="footer__wrapper">
+                        <div class="flex flex-col md:flex-row w-full md:w-auto">
+                          <div class="flex flex-col space-y-[16px] px-[40px] pb-[32px] w-full md:w-auto">
+                            <h4 class="h3">Get in touch</h4>
+                            <div class="flex flex-col space-y-[5px]">
+                              <a class="footer-link" href="mailto:hello@charge.cars">hello@charge.cars</a>
+                              <a href="tel:+442039884888" class="footer-link">+44 20 3988 4888</a>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="flex flex-col md:flex-row w-full md:w-auto">
+                          <div class="flex flex-col space-y-[16px] px-[40px] pb-[32px] w-full md:w-auto">
+                            <h4 class="h3">Careers</h4>
+                            <div class="flex flex-col space-y-[5px]">
+                              <a class="footer-link" href="mailto:talent@charge.cars">talent@charge.cars</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="flex flex-col space-y-[16px] px-[40px] pb-[32px] w-full md:w-auto">
+                        <h4 class="h3">More</h4>
+                        <div class="flex flex-col space-y-[5px]">
+                          <a
+                            id="footer-link-privacy-policy"
+                            href="/files/privacy-policy.pdf"
+                            target="_blank"
+                            rel="nofollow"
+                            class="footer-link"
+                            >Privacy policy</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="flex flex-col space-y-[16px] px-[40px] pb-[32px] w-full xl:w-auto"
+                    >
+                      <h4 class="h3">Sign up for our newsletter</h4>
+                      <div>
+                        <form
+                          id="subscribe-form"
+                          class="content-form items-center max-w-full w-[460px]"
+                        >
+                          <input
+                            id="subscribe-form-input"
+                            name="email"
+                            type="text"
+                            placeholder="Enter your email address"
+                            class="flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent"
+                          />
+                          <button id="subscribe-form-button" type="submit">
+                            <svg
+                              aria-hidden="true"
+                              focusable="true"
+                              role="img"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <use xlink:href="#icon-next"></use>
+                            </svg>
+                          </button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="flex justify-between flex-col xl:pl-[50px]">
+                    <div class="flex space-x-[30px] px-[40px] py-[30px] w-full md:w-auto">
+                      <a
+                        id="footer-social-button-twitter"
+                        href="https://twitter.com/ChargeCars"
+                        target="_blank"
+                        rel="nofollow"
+                        class="icon-link"
+                      >
+                        <svg
+                          class="w-[36px] h-[36px] text-white"
+                          aria-hidden="true"
+                          focusable="true"
+                          role="img"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <use xlink:href="#icon-social-tw"></use>
+                        </svg>
+                      </a>
+                      <a
+                        id="footer-social-button-fb"
+                        href="https://www.facebook.com/charge.cars/"
+                        target="_blank"
+                        rel="nofollow"
+                        class="icon-link"
+                      >
+                        <svg
+                          class="w-[36px] h-[36px] text-white"
+                          aria-hidden="true"
+                          focusable="true"
+                          role="img"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <use xlink:href="#icon-social-fb"></use>
+                        </svg>
+                      </a>
+                      <a
+                        id="footer-social-button-ln"
+                        href="https://www.linkedin.com/company/charge-cars/"
+                        target="_blank"
+                        rel="nofollow"
+                        class="icon-link"
+                      >
+                        <svg
+                          class="w-[36px] h-[36px] text-white"
+                          aria-hidden="true"
+                          focusable="true"
+                          role="img"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <use xlink:href="#icon-social-ln"></use>
+                        </svg>
+                      </a>
+                      <a
+                        id="footer-social-button-youtube"
+                        href="https://www.youtube.com/channel/UCz9R78Z138vf-WPADwm4X8w"
+                        target="_blank"
+                        rel="nofollow"
+                        class="icon-link"
+                      >
+                        <svg
+                          class="w-[36px] h-[36px] text-white"
+                          aria-hidden="true"
+                          focusable="true"
+                          role="img"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <use xlink:href="#icon-social-youtube"></use>
+                        </svg>
+                      </a>
+                      <a
+                        id="footer-social-button-ig"
+                        href="https://www.instagram.com/charge.cars/?hl=en"
+                        target="_blank"
+                        rel="nofollow"
+                        class="icon-link"
+                      >
+                        <svg
+                          class="w-[36px] h-[36px] text-white"
+                          aria-hidden="true"
+                          focusable="true"
+                          role="img"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <use xlink:href="#icon-social-ig"></use>
+                        </svg>
+                      </a>
+                    </div>
+                    <div
+                      class="opacity-40 px-[40px] py-[30px] w-full md:w-auto flex flex-col"
+                    >
+                      <span class="text-[16px]">
+                        Copyright © 2022 Charge Cars Ltd. All rights reserved
+                      </span>
+                      <span class="text-[14px]">
+                        Mustang is a registered trademark of the Ford Motor
+                        Company. Arrival is a registered trademark of Arrival
+                        Ltd. Charge Cars’ use of the marks does not imply any
+                        affiliation with or endorsement by the respective
+                        trademark holders.
+                      </span>
+                    </div>
+                  </div>
+                </footer>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div
+          id="los-angeles-sidebar"
+          data-location="Los Angeles"
+          class="sidebar h-full w-full z-100 fixed flex flex-col transition-opacity duration-300"
+        >
+          <div class="sidebar-inner sidebar-bottom sidebar-w-full select-none h-full bg-black text-white">
+            <div class="sidebar-close">
+              <img
+                  id="los-angeles-close-icon"
+                  class="sidebar-icon"
+                  src="images/icons/events/close.svg"
+                  alt="Close Icon"
+              />
+            </div>
+            <img
+              class="sidebar-image w-full"
+              src="images/los-angeles.jpg"
+              alt="Los Angeles"
+            />
+            <div class="sidebar-time">October 27, 2022</div>
+            <h3 class="sidebar-title">Petersen Museum</h3>
+            <div class="sidebar-text">
+              One of the world's largest and most diverse automotive museums, the Petersen chronicles the evolution of great automotive engineering achievements and its impact on our culture over the past 120 years. Our debut begins here.
+            </div>
+          </div>
+        </div>
+        <div
+          id="los-angeles2-sidebar"
+          data-location="Los Angeles"
+          class="sidebar h-full w-full z-100 fixed flex flex-col transition-opacity duration-300"
+        >
+          <div class="sidebar-inner sidebar-bottom sidebar-w-full select-none h-full bg-black text-white">
+            <div class="sidebar-close">
+              <img
+                id="los-angeles2-close-icon"
+                class="sidebar-icon"
+                src="images/icons/events/close.svg"
+                alt="Close Icon"
+              />
+            </div>
+            <img
+              class="sidebar-image w-full"
+              src="images/los-angeles2.jpg"
+              alt="Los Angeles"
+            />
+            <div class="sidebar-time">November 18-27, 2022</div>
+            <h3 class="sidebar-title">Los Angeles Auto Show</h3>
+            <div class="sidebar-text">
+              Founded in 1907, the Los Angeles Auto Show is one of the most influential and best-attended auto shows
+              globally. Each fall, it gathers the who’s who of the auto industry to unveil the future of mobility in the car culture capital of the world.
+            </div>
+            <div class="sidebar-text">
+              Spaces are very limited so please apply in good time.
+            </div>
+            <div class="sidebar-text">
+              <a class="sidebar-link" href="https://laautoshow.com/tickets">Los Angeles Autoshow</a> tickets link
+            </div>
+          </div>
+        </div>
+        <div
+          id="florida-sidebar"
+          data-location="Florida"
+          class="sidebar h-full w-full z-100 fixed flex flex-col transition-opacity duration-300"
+        >
+          <div class="sidebar-inner sidebar-bottom sidebar-w-full select-none h-full bg-black text-white">
+            <div class="sidebar-close">
+              <img
+                id="florida-close-icon"
+                class="sidebar-icon"
+                src="images/icons/events/close.svg"
+                alt="Close Icon"
+              />
+            </div>
+            <img
+              class="sidebar-image w-full"
+              src="images/miami.jpg"
+              alt="Los Angeles"
+            />
+            <div class="sidebar-time">Date TBC</div>
+            <h3 class="sidebar-title">Miami Event TBC</h3>
+            <div class="sidebar-text">
+              More details to follow.
+            </div>
+            <div class="sidebar-text">
+              Spaces are very limited so please apply in good time.
+            </div>
+            <form
+              id="florida-action-form"
+              class="js-eventsSidebarForm"
+            >
+              <fieldset class="flex flex-col max-w-full space-y-[40px] js-formFieldset">
+                <div class="content-form items-center">
+                  <input
+                    id="florida-action-form-input-name"
+                    type="text"
+                    name="name"
+                    placeholder="Your name"
+                    class="flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent"
+                  />
+                </div>
+                <div class="content-form items-center">
+                  <input
+                    id="florida-action-form-input-phone"
+                    type="tel"
+                    name="phone"
+                    required
+                    placeholder="+1"
+                    class="js-inputPhone flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent"
+                  />
+                </div>
+                <div class="content-form items-center">
+                  <input
+                    id="florida-action-form-input-zip-code"
+                    type="text"
+                    name="zip_code"
+                    placeholder="ZIP Code / Postcode"
+                    required
+                    class="flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent"
+                  />
+                </div>
+                <div class="content-form items-center">
+                  <input
+                    id="florida-action-form-input-email"
+                    type="email"
+                    required
+                    name="email"
+                    placeholder="Your e-mail"
+                    class="flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent"
+                  />
+                </div>
+                <div class="content-form items-center">
+                  <select class="sidebar-select select js-select js-selectNatureInterest" name="nature_of_interest"
+                      required>
+                    <option value="">Nature of interest?</option>
+                    <option value="Follower">Follower</option>
+                    <option value="Media/Press">Media/Press</option>
+                    <option value="Customer">Customer</option>
+                  </select>
+                </div>
+                <div data-id="Follower" class="content-form items-center js-addedOption hidden">
+                  <textarea class="textarea" name="enquiry_description" placeholder="Tell us about yourself"></textarea>
+                </div>
+                <div data-id="Media/Press" class="content-form items-center js-addedOption hidden">
+                  <textarea class="textarea" name="enquiry_description" placeholder="Who do you represent?"></textarea>
+                </div>
+                <div data-id="Customer" class="content-form items-center js-addedOption hidden">
+                  <select class="sidebar-select select js-select" name="enquiry_description">
+                    <option value="">I am interested in purchasing?</option>
+                    <option value="Now">Now</option>
+                    <option value="Within the next 6 months">Within the next 6 months</option>
+                    <option value="Maybe in the future">Maybe in the future</option>
+                  </select>
+                </div>
+                <div>
+                  <button
+                    id="florida-action-form-submit"
+                    class="nav-button form__button--submit js-actionFormButtonSubmit js-formButtonSubmit"
+                    type="submit"
+                  >
+                    <span class="text">REGISTER</span>
+                    <svg
+                      class="loader"
+                      aria-hidden="true"
+                      focusable="false"
+                      role="img"
+                    >
+                      <use xlink:href="#icon-logo"></use>
+                    </svg>
+                  </button>
+                </div>
+              </fieldset>
+            </form>
+            <div class="sidebar-complete js-sidebarComplete hidden">
+              <h3 class="sidebar-title">Thank you!</h3>
+              <div class="sidebar-text">
+                You will receive a confirmation email.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          id="ny-sidebar"
+          data-location="New York"
+          class="sidebar h-full w-full z-100 fixed flex flex-col transition-opacity duration-300"
+        >
+          <div class="sidebar-inner sidebar-bottom sidebar-w-full select-none h-full bg-black text-white">
+            <div class="sidebar-close">
+              <img
+                id="ny-close-icon"
+                class="sidebar-icon"
+                src="images/icons/events/close.svg"
+                alt="Close Icon"
+              />
+            </div>
+            <img
+              class="sidebar-image w-full"
+              src="images/new-york.jpg"
+              alt="Los Angeles"
+            />
+            <div class="sidebar-time">Date TBC</div>
+            <h3 class="sidebar-title">New York TBC</h3>
+            <div class="sidebar-text">
+              More details to follow.
+            </div>
+            <div class="sidebar-text">
+              Spaces are very limited so please apply in good time.
+            </div>
+            <form
+              id="ny-action-form"
+              class="js-eventsSidebarForm"
+            >
+              <fieldset class="flex flex-col max-w-full space-y-[40px] js-formFieldset">
+                <div class="content-form items-center">
+                  <input
+                    id="ny-action-form-input-name"
+                    type="text"
+                    name="name"
+                    placeholder="Your name"
+                    class="flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent"
+                  />
+                </div>
+                <div class="content-form items-center">
+                  <input
+                    id="ny-action-form-input-phone"
+                    type="tel"
+                    name="phone"
+                    required
+                    placeholder="+1"
+                    class="js-inputPhone flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent"
+                  />
+                </div>
+                <div class="content-form items-center">
+                  <input
+                      id="ny-action-form-input-zip-code"
+                      type="text"
+                      name="zip_code"
+                      placeholder="ZIP Code / Postcode"
+                      required
+                      class="flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent"
+                  />
+                </div>
+                <div class="content-form items-center">
+                  <input
+                    id="ny-action-form-input-email"
+                    type="email"
+                    required
+                    name="email"
+                    placeholder="Your e-mail"
+                    class="flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent"
+                  />
+                </div>
+                <div class="content-form items-center">
+                  <select class="sidebar-select select js-select js-selectNatureInterest" name="nature_of_interest"
+                      required>
+                    <option value="">Nature of interest?</option>
+                    <option value="Follower">Follower</option>
+                    <option value="Media/Press">Media/Press</option>
+                    <option value="Customer">Customer</option>
+                  </select>
+                </div>
+                <div data-id="Follower" class="content-form items-center js-addedOption hidden">
+                  <textarea class="textarea" name="enquiry_description" placeholder="Tell us about yourself"></textarea>
+                </div>
+                <div data-id="Media/Press" class="content-form items-center js-addedOption hidden">
+                  <textarea class="textarea" name="enquiry_description" placeholder="Who do you represent?"></textarea>
+                </div>
+                <div data-id="Customer" class="content-form items-center js-addedOption hidden">
+                  <select class="sidebar-select select js-select" name="enquiry_description">
+                    <option value="">I am interested in purchasing?</option>
+                    <option value="Now">Now</option>
+                    <option value="Within the next 6 months">Within the next 6 months</option>
+                    <option value="Maybe in the future">Maybe in the future</option>
+                  </select>
+                </div>
+                <div>
+                <button
+                  id="ny-action-form-submit"
+                  class="nav-button form__button--submit js-actionFormButtonSubmit js-formButtonSubmit"
+                  type="submit"
+                >
+                  <span class="text">REGISTER</span>
+                  <svg
+                    class="loader"
+                    aria-hidden="true"
+                    focusable="false"
+                    role="img"
+                  >
+                    <use xlink:href="#icon-logo"></use>
+                  </svg>
+                </button>
+              </div>
+              </fieldset>
+            </form>
+            <div class="sidebar-complete js-sidebarComplete hidden">
+              <h3 class="sidebar-title">Thank you!</h3>
+              <div class="sidebar-text">
+                You will receive a confirmation email.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          id="mobile-menu"
+          class="flex flex-col select-none inset-0 w-full h-full z-100 fixed bg-[#222222]"
+        >
+          <div
+            class="px-[30px] py-[45px] bg-[#222222] z-20 flex justify-between items-center"
+          >
+            <a
+              id="mobile-menu-close-button"
+              data-toggle-mobile-menu
+              class="icon-link w-[36px] h-[36px] block cursor-pointer"
+            >
+              <svg
+                class="w-[26px] h-[26px] text-white"
+                aria-hidden="true"
+                focusable="true"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <use xlink:href="#icon-times"></use>
+              </svg>
+            </a>
+
+            <a
+              id="reserve-popup-button-mobile"
+              data-toggle-reserve-popup="open"
+              class="nav-button cursor-pointer"
+              >Enquire</a>
+          </div>
+          <div class="flex-grow flex-shrink relative z-10">
+            <div id="mobile-scroll" class="absolute inset-0">
+              <div style="width: 100%; position: absolute">
+                <div class="flex flex-col" style="min-height: 100%">
+                  <div class="flex flex-col flex-grow flex-shrink">
+                    <div class="flex-grow flex-shrink px-[30px] relative">
+                      <div
+                        class="flex flex-col space-y-[30px] text-[26px] sm:text-[32px]"
+                      >
+                        <!--<div>-->
+                        <!--  <a-->
+                        <!--    id="mobile-menu-home-link"-->
+                        <!--    data-navigation-mobile-item-->
+                        <!--    href="#vision-statement"-->
+                        <!--    >Home</a-->
+                        <!--  >-->
+                        <!--</div>-->
+                        <div>
+                          <a
+                            id="mobile-menu-product-link"
+                            style="color: white"
+                            href="/product.html"
+                            >Product</a
+                          >
+                        </div>
+                        <div>
+                          <a
+                            id="mobile-menu-gallery-link"
+                            data-navigation-mobile-item
+                            href="#gallery"
+                            >Gallery</a
+                          >
+                        </div>
+                        <div>
+                          <a
+                            id="mobile-menu-technology-link"
+                            style="color: white"
+                            href="/technology.html"
+                            >Technology</a
+                          >
+                        </div>
+                        <div>
+                          <a
+                            id="mobile-menu-bespoke-expierence-link"
+                            style="color: white"
+                            href="/bespoke-expierence.html"
+                            >Bespoke Experience</a
+                          >
+                        </div>
+						<div>
+							<a
+							  id="mobile-menu-dealerships-link"
+							  data-navigation-mobile-item
+							  href="#dealerships"
+							  >Dealerships</a
+							>
+						  </div>
+                        <div>
+                          <a
+                            id="mobile-menu-company-link"
+                            data-navigation-mobile-item
+                            href="#about-us"
+                            >Company</a
+                          >
+                        </div>
+                        <div>
+                          <a
+                            id="mobile-menu-contact-link"
+                            data-navigation-mobile-item
+                            href="#contact"
+                            >Contact</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex space-x-[30px] px-[30px] py-[45px] w-full">
+                      <a
+                        id="mobile-menu-social-button-twitter"
+                        href="https://twitter.com/ChargeCars"
+                        target="_blank"
+                        rel="nofollow"
+                        class="icon-link"
+                      >
+                        <svg
+                          class="w-[36px] h-[36px] text-white"
+                          aria-hidden="true"
+                          focusable="true"
+                          role="img"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <use xlink:href="#icon-social-tw"></use>
+                        </svg>
+                      </a>
+                      <a
+                        id="mobile-menu-social-button-fb"
+                        href="https://www.facebook.com/charge.cars/"
+                        target="_blank"
+                        rel="nofollow"
+                        class="icon-link"
+                      >
+                        <svg
+                          class="w-[36px] h-[36px] text-white"
+                          aria-hidden="true"
+                          focusable="true"
+                          role="img"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <use xlink:href="#icon-social-fb"></use>
+                        </svg>
+                      </a>
+                      <a
+                        id="mobile-menu-social-button-ln"
+                        href="https://www.linkedin.com/company/charge-cars/"
+                        target="_blank"
+                        rel="nofollow"
+                        class="icon-link"
+                      >
+                        <svg
+                          class="w-[36px] h-[36px] text-white"
+                          aria-hidden="true"
+                          focusable="true"
+                          role="img"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <use xlink:href="#icon-social-ln"></use>
+                        </svg>
+                      </a>
+                      <a
+                        id="mobile-menu-social-button-youtube"
+                        href="https://www.youtube.com/channel/UCz9R78Z138vf-WPADwm4X8w"
+                        target="_blank"
+                        rel="nofollow"
+                        class="icon-link"
+                      >
+                        <svg
+                          class="w-[36px] h-[36px] text-white"
+                          aria-hidden="true"
+                          focusable="true"
+                          role="img"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <use xlink:href="#icon-social-youtube"></use>
+                        </svg>
+                      </a>
+                      <a
+                        id="mobile-menu-social-button-ig"
+                        href="https://www.instagram.com/charge.cars/?hl=en"
+                        target="_blank"
+                        rel="nofollow"
+                        class="icon-link"
+                      >
+                        <svg
+                          class="w-[36px] h-[36px] text-white"
+                          aria-hidden="true"
+                          focusable="true"
+                          role="img"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <use xlink:href="#icon-social-ig"></use>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          id="reserve-form"
+          class="select-none inset-0 w-full h-full z-100 fixed flex flex-col justify-between items-center transition-opacity duration-300 bg-black"
+        >
+          <div class="px-[30px] py-[45px] flex items-center w-full">
+            <a
+              id="reserve-action-form-close-button"
+              data-toggle-reserve-popup
+              class="flex items-center justify-center icon-link w-[36px] h-[36px] cursor-pointer mr-[12px]"
+            >
+              <svg
+                class="w-[26px] h-[26px] text-white"
+                aria-hidden="true"
+                focusable="true"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <use xlink:href="#icon-times"></use>
+              </svg>
+            </a>
+            <span class="font-semibold text-white">Enquire</span>
+          </div>
+          <div class="px-[30px] w-full flex items-center justify-center">
+            <form
+              id="reserve-action-form"
+              class="max-w-full w-[460px] js-reserveForm"
+            >
+              <fieldset class="flex flex-col max-w-full space-y-[40px] js-formFieldset">
+                <div class="content-form items-center">
+                  <input
+                          id="reserve-action-form-input-firstname"
+                          type="text"
+                          name="firstname"
+                          placeholder="Your name"
+                          required
+                          class="flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent"
+                  />
+                </div>
+                <div class="content-form items-center">
+                  <input
+                          id="reserve-action-form-input-lastname"
+                          type="text"
+                          name="lastname"
+                          placeholder="Your last name"
+                          required
+                          class="flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent"
+                  />
+                </div>
+                <div class="content-form items-center">
+                  <input
+                          id="reserve-action-form-input-phone"
+                          type="text"
+                          name="phone"
+                          placeholder="+1"
+                          required
+                          class="flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent"
+                  />
+                </div>
+                <div class="content-form items-center">
+                  <input
+                          id="reserve-action-form-input-email"
+                          type="text"
+                          name="email"
+                          placeholder="Your e-mail"
+                          required
+                          class="flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent"
+                  />
+                </div>
+                <div class="content-form items-center">
+                  <input
+                          id="reserve-action-form-input-country"
+                          type="text"
+                          name="country"
+                          placeholder="Your country"
+                          required
+                          class="flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent"
+                  />
+                </div>
+                <div class="content-form items-center">
+                  <input
+                          id="reserve-action-form-input-city"
+                          type="text"
+                          name="city"
+                          placeholder="Your city"
+                          required
+                          class="flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent"
+                  />
+                </div>
+                <div class="content-form items-center">
+                  <textarea
+                          class="textarea"
+                          name="hs_content_membership_notes"
+                          placeholder="Your comments..."
+                          required
+                  ></textarea>
+                </div>
+                <span class="font-bold text-white" style="font-size: 20px">The price starts at £350,000</span>
+                <div>
+                  <button
+                    class="nav-button form__button--submit js-formButtonSubmit"
+                    type="submit"
+                  >
+                    <span class="text">Submit</span>
+                    <svg
+                      class="loader"
+                      aria-hidden="true"
+                      focusable="false"
+                      role="img"
+                    >
+                      <use xlink:href="#icon-logo"></use>
+                    </svg>
+                  </button>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+          <div class="text-center px-[30px] py-[45px] w-full">
+            <span style="color: white; opacity: 50%; font-size: 16px"
+            >We collect your data to keep you updated about our reservation
+              program. By submitting this form you agree to the
+              <a
+                href="/files/privacy-policy.pdf"
+                target="_blank"
+                rel="nofollow"
+                style="text-decoration: underline"
+              >Privacy Policy</a
+              >.</span
+            >
+          </div>
+        </div>
+
+        <div
+                id="reserve-form-thanks"
+                class="select-none inset-0 w-full h-full z-100 fixed flex flex-col justify-between items-center transition-opacity duration-300 bg-black js-reserveFormThanks"
+        >
+          <div class="px-[30px] py-[45px] flex items-center w-full">
+            <a
+              data-toggle-reserve-thanks
+              class="icon-link w-[36px] h-[36px] block cursor-pointer mr-[12px]"
+              style="display: inline-block"
+            >
+              <svg
+                class="w-[26px] h-[26px] text-white"
+                aria-hidden="true"
+                focusable="true"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <use xlink:href="#icon-times"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="px-[30px]">
+            <div
+              class="h1 text-white text-center font-light"
+              style="font-weight: 300"
+            >
+              Your customer journey starts here!
+            </div>
+          </div>
+          <div class="text-center px-[30px] py-[45px] w-full">
+            <span style="color: white; opacity: 50%; font-size: 16px">One of our team will be contacting you very soon</span>
+          </div>
+        </div>
+
+        <div
+          id="no-landscape"
+          class="select-none inset-0 w-full h-full z-100 fixed flex flex-col justify-between items-center transition-opacity duration-300 bg-black"
+        >
+          <div class="text-center px-[30px] py-[45px] w-full"></div>
+          <div class="flex flex-col items-center space-y-[30px] px-[30px]">
+            <img
+              src="/images/no-landscape.svg"
+              class="max-w-full h-auto"
+              style="width: 48px"
+            />
+
+            <div
+              class="h3 text-white text-center font-light"
+              style="font-weight: 300"
+            >
+              Rotate your phone for better experience
+            </div>
+          </div>
+          <div class="text-center px-[30px] py-[45px] w-full"></div>
+        </div>
+      </div>
+
+      <div id="app-loader">
+        <svg
+          class="w-[52px] h-[52px] text-white"
+          aria-hidden="true"
+          focusable="false"
+          role="img"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <use xlink:href="#icon-logo"></use>
+        </svg>
+      </div>
+
+      <div
+        id="video-loader"
+        class="fixed"
+        style="z-index: 40; bottom: 45px; right: 30px; pointer-events: none"
+      >
+        <svg class="spinner" viewBox="0 0 50 50">
+          <circle
+            class="path"
+            cx="25"
+            cy="25"
+            r="20"
+            fill="none"
+            stroke-width="5"
+          ></circle>
+        </svg>
+      </div>
+    </div>
+    <script type="text/javascript" src="/js/libs/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/libs/iscroll-forked.js"></script>
+    <script type="text/javascript" src="/js/libs/fullpage-forked.js"></script>
+    <script type="text/javascript" src="/js/libs/splide.min.js"></script>
+    <script type="text/javascript" src="/js/libs/choices.min.js"></script>
+    <script
+      type="text/javascript"
+      src="/js/libs/intlTelInput-jquery.min.js"
+    ></script>
+
+    <script type="text/javascript" src="/js/app.js"></script>
+    <script>
+      $(document).ready(function () {
+        new IScroll("#mobile-scroll", {
+          mouseWheel: true,
+          scrollbars: true,
+          scrollX: false,
+          scrollY: true,
+          interactiveScrollbars: true,
+        });
+
+        new IScroll("#about-us-scroll", {
+          probeType: 3,
+          mouseWheel: true,
+          scrollbars: true,
+          scrollX: false,
+          scrollY: true,
+          interactiveScrollbars: true,
+          onBeforeScrollStart: function (e) {
+            e.stopPropagation();
+          },
+        });
+
+        var splide_product = new Splide("#product-3-mobile-slider", {
+          type: "loop",
+          padding: "0rem",
+          perPage: 2,
+          perMove: 1,
+          //autoWidth: true,
+          rewind: true,
+          pagination: false,
+          drag: false,
+          wheel: false,
+        });
+
+        splide_product.mount();
+
+		var splide_dealership = new Splide("#dealership-mobile-slider", {
+			arrows: false,
+			focus    : 'center',
+          //type: "loop",
+          padding: "0rem",
+          perPage: 2,
+          perMove: 1,
+          //autoWidth: true,
+          rewind: true,
+          pagination: false,
+          drag: false,
+          wheel: false,
+        });
+
+        splide_dealership.mount();
+
+        var splide_gallery = new Splide("#gallery-preview-slider", {
+          type: "loop",
+          padding: "0rem",
+          perPage: 7,
+          perMove: 1,
+          //autoWidth: true,
+          focus: "center",
+          rewind: true,
+          pagination: false,
+          drag: false,
+          wheel: false,
+        });
+
+        splide_gallery.mount();
+
+        const gallery_section_index =
+          $(".fp-section").index(document.getElementById("gallery")) + 1;
+
+        $("#gallery-preview-slider a[data-gallery-selector]").on(
+          "click",
+          function (e) {
+            var slide_idx = parseInt($(this).attr("data-gallery-selector")) - 1;
+
+            $.fn.fullpage.moveTo(gallery_section_index, slide_idx);
+            splide_gallery.go(slide_idx);
+          }
+        );
+
+        $("#gallery .fp-controlArrow.fp-next").on("click", function (e) {
+          var slide_idx = $("#gallery .fp-slidesContainer .slide").index(
+            $("#gallery .fp-slidesContainer .slide.active")
+          );
+
+          splide_gallery.go(slide_idx + 1);
+        });
+
+        $("#gallery .fp-controlArrow.fp-prev").on("click", function (e) {
+          var slide_idx = $("#gallery .fp-slidesContainer .slide").index(
+            $("#gallery .fp-slidesContainer .slide.active")
+          );
+
+          splide_gallery.go(slide_idx - 1);
+        });
+      });
+    </script>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+    <script>
+      mapboxgl.accessToken =
+        "pk.eyJ1IjoiY2FyZmFuYXRpYyIsImEiOiJjbDF1amN2OTgxNXJ3M2lxczhzeTdlcWlzIn0.Z0JDBETF2ppFwIRL7NgHow";
+
+      $(document).ready(function () {
+        const coords = [-0.44869, 51.505725];
+
+        const map = new mapboxgl.Map({
+          container: "map",
+          style: "mapbox://styles/carfanatic/cl1uxzl8m000j14p6lcirkgvl",
+          center: coords,
+          zoom: 10,
+        });
+
+        var marker = document.createElement("div");
+        marker.id = "map-marker";
+        new mapboxgl.Marker(marker).setLngLat(coords).addTo(map);
+
+        map.scrollZoom.disable();
+        map.addControl(new mapboxgl.NavigationControl());
+      });
+    </script>
+  </body>
+</html>

@@ -279,77 +279,6 @@ $(document).ready(function () {
 		})
 	});
 
-	/*
-	  $('#reserve-action-form input[name="phone"]').intlTelInput({
-		  initialCountry: "us",
-		  autoPlaceholder: "aggressive",
-		  customPlaceholder: function(selectedCountryPlaceholder) {
-			  return selectedCountryPlaceholder.replace(/[0-9]/g, '9');;
-		  },
-	  });
-	  */
-
-	// initMasking('#reserve-action-form input[name="phone-code"]', '#reserve-action-form input[name="phone"]');
-	/*
-	  $('#reserve-action-form input[name="phone-code"]').on("countrychange", function (e, countryData) {
-		  $(this).val('');
-		  $('#reserve-action-form input[name="phone"]').val('');
-  
-		  initMasking(this, '#reserve-action-form input[name="phone"]');
-	   });
-	   */
-
-	function appendMetrics() {
-		$(
-			"head"
-		).append(`<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-T3TBKCF');</script>`);
-
-		$("body").prepend(
-			`<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3TBKCF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>`
-		);
-
-		$("head").append(
-			`<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128117640-3"></script>`
-		);
-		$("head").append(`<script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-      
-        gtag('config', 'UA-128117640-3');
-      </script>`);
-	}
-
-	const checkUserGeolocation = async () => {
-		try {
-			const response = await fetch("http://ip-api.com/json", {
-				headers: {
-					"Content-Type": "application/json",
-				},
-			});
-
-			if (!response.ok) {
-				return false;
-			}
-
-			const geolocation = await response.json();
-
-			if (geolocation) {
-				window.__userGeolocation = {
-					country: geolocation.country ?? null,
-					city: geolocation.city ?? null,
-				}
-			}
-		} catch (error) {
-			console.error(error);
-		}
-	};
-
-	//void checkUserGeolocation();
 
 	const loadingForm = (state, form) => {
 		form.querySelectorAll(".content-form").forEach((item) => item.style.opacity = state ? 0.5 : 1);
@@ -358,15 +287,6 @@ $(document).ready(function () {
 		form.querySelector(".js-formButtonSubmit .loader").classList.toggle("rotate");
 		form.querySelector(".js-formFieldset").toggleAttribute("disabled")
 	};
-
-	//Р•СЃР»Рё РїРѕР»РёС‚РёРєР° РєСѓРєРёСЃРѕРІ РЅРµ Р±С‹Р»Р° РїСЂРёРЅСЏС‚Р° - РїРѕРєР°Р·С‹РІР°РµРј РїР»Р°С€РєСѓ
-	if (getCookie("accept-cookies") === null) {
-		$("#cookies-info").addClass("active");
-	}
-
-	if (getCookie("accept-cookies") == 1) {
-		//appendMetrics();
-	}
 
 	$("#fullpage").fullpage({
 		css3: false,
@@ -756,6 +676,7 @@ $(document).ready(function () {
 
 	document.querySelectorAll(".js-eventsSidebarForm").forEach((form) => {
 		form.addEventListener("submit", async (event) => {
+
 			const formData = new FormData(event.target);
 			const data = {};
 			const countryTitle = form.closest(".sidebar").querySelector(".iti__selected-flag").title;
@@ -772,13 +693,14 @@ $(document).ready(function () {
 
 				form.querySelector(".js-actionFormButtonSubmit").setAttribute("disabled", true);
 
-				await fetch("https://zephs60lm6.execute-api.us-east-1.amazonaws.com/air_table_events", {
-					body: JSON.stringify(data),
-					method: "POST",
-					headers: {
-						"Content-Type": "application/json",
-					},
-				});
+				//demo-website: disabled
+				//await fetch("https://zephs60lm6.execute-api.us-east-1.amazonaws.com/air_table_events", {
+				//	body: JSON.stringify(data),
+				//	method: "POST",
+				//	headers: {
+				//		"Content-Type": "application/json",
+				//	},
+				//});
 
 				loadingForm(false, form);
 			} catch (error) {
@@ -939,6 +861,8 @@ $(document).ready(function () {
 	async function sendResponseForm(name, phone, email, country) {
 		let response;
 
+		//demo-website: disabled
+		return;
 		response = await fetch(
 			"https://zephs60lm6.execute-api.us-east-1.amazonaws.com/air_table_integration",
 			{
@@ -972,21 +896,22 @@ $(document).ready(function () {
 			try {
 				loadingForm(true, form);
 
-				await fetch("https://zephs60lm6.execute-api.us-east-1.amazonaws.com/air_table_integration", {
-					body: JSON.stringify(data),
-					headers: {
-						"Content-Type": "application/json",
-					},
-					method: "POST",
-				});
+				//demo-website: disabled
+				//await fetch("https://zephs60lm6.execute-api.us-east-1.amazonaws.com/air_table_integration", {
+				//	body: JSON.stringify(data),
+				//	headers: {
+				//		"Content-Type": "application/json",
+				//	},
+				//	method: "POST",
+				//});
 
-				await fetch("https://zephs60lm6.execute-api.us-east-1.amazonaws.com/hubapi_contacts", {
-					body: JSON.stringify(data),
-					headers: {
-						"Content-Type": "application/json",
-					},
-					method: "POST",
-				});
+				//await fetch("https://zephs60lm6.execute-api.us-east-1.amazonaws.com/hubapi_contacts", {
+				//	body: JSON.stringify(data),
+				//	headers: {
+				//		"Content-Type": "application/json",
+				//	},
+				//	method: "POST",
+				//});
 
 				loadingForm(false, form);
 			} catch (error) {
@@ -1002,6 +927,8 @@ $(document).ready(function () {
 	async function sendSubscribeForm(email) {
 		let response;
 
+		//demo-website: disabled
+		return;
 		response = await fetch(
 			"https://zephs60lm6.execute-api.us-east-1.amazonaws.com/air_table_newsletter",
 			{
@@ -1053,16 +980,6 @@ $(document).ready(function () {
 			$("#subscribe-form").css("cursor", "wait");
 
 			sendSubscribeForm(fields_email);
-		}
-	});
-
-	$("a[data-cookies-button]").on("click", function (e) {
-		$("#cookies-info").removeClass("active");
-
-		if ($(this).attr("data-cookies-button") == "accept") {
-			setCookie("accept-cookies", 1, 7);
-
-			appendMetrics();
 		}
 	});
 

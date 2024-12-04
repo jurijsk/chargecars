@@ -2305,34 +2305,6 @@ a[data-spoiler-button]>svg {
 	display: block;
 }
 
-#cookies-info {
-	position: fixed;
-	display: flex;
-	right: 0;
-	left: 0;
-	z-index: 50;
-	opacity: 0;
-	bottom: 30px;
-	pointer-events: none;
-	justify-content: center;
-	color: white;
-	font-size: 16px;
-	padding-right: 30px;
-	padding-left: 30px;
-}
-
-#cookies-info.active {
-	opacity: 100% !important;
-	pointer-events: auto !important;
-}
-
-#cookies-info>.container {
-	width: 100%;
-	max-width: 1280px;
-	border: 1px solid #e0e0e066;
-	border-radius: 4px;
-	background-color: black;
-}
 
 .px-\[30px\] {
 	padding-right: 30px;
@@ -3004,10 +2976,6 @@ div[data-video-element="part-parted-arrow"].active a {
 	#mobile-menu.active {
 		opacity: 0;
 		pointer-events: none;
-	}
-
-	#cookies-info {
-		bottom: 92px;
 	}
 
 	.fp-section:not(.with-bottom-indicator) *[data-video-element].element-bottom {
@@ -3837,4 +3805,16 @@ input::-webkit-inner-spin-button {
 		flex-grow: 1;
 		justify-content: space-around;
 	}
+}
+
+video {
+
+	&#vision-statement-1 {
+		background-image: url(../mobile/uploads/videos-cover/vision-statement-1.jpg);
+
+		@media (min-width: 800px) {
+			background-image: url(../uploads/videos-cover/vision-statement-1.jpg);
+		}
+	}
+}
 }

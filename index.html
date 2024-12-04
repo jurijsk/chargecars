@@ -24,18 +24,38 @@
 
 	<title>Home page :: Charge</title>
 
-	<link rel="stylesheet" href="/cache/app.css" type="text/css" />
-	<link rel="stylesheet" href="/cache/inputmask.css" />
+	<link rel="stylesheet" href="/css/app.css" type="text/css" />
+	<link rel="stylesheet" href="/css/inputmask.css" />
 	<link rel="stylesheet" href="/css/libs/jquery.fullpage.css" type="text/css" />
 	<link rel="stylesheet" href="/css/libs/splide-core.css" type="text/css" />
 	<link rel="stylesheet" href="/css/libs/splide.css" type="text/css" />
 	<link rel="stylesheet" href="/css/libs/choices.min.css" type="text/css" />
 
 	<style>
-
 		:root {
-			
+			--gallery-url-1: url(/mobile/uploads/slider/black/1.jpg);
+			--gallery-url-2: url(/mobile/uploads/slider/black/2.jpg);
+			--gallery-url-3: url(/mobile/uploads/slider/black/3.jpg);
+			--gallery-url-4: url(/mobile/uploads/slider/black/4.jpg);
+
+			--bespoke-experience-1: url(/mobile/uploads/bespoke-experience-1.jpg);
+			--bespoke-experience-2: url(/mobile/uploads/bespoke-experience-2.jpg);
+			--bespoke-experience-3: url(/mobile/uploads/bespoke-experience-3.jpg);
 		}
+
+		@media (min-width: 800px) {
+			:root {
+				--gallery-url-1: url(/uploads/slider/black/1.jpg);
+				--gallery-url-2: url(/uploads/slider/black/2.jpg);
+				--gallery-url-3: url(/uploads/slider/black/3.jpg);
+				--gallery-url-4: url(/uploads/slider/black/4.jpg);
+
+				--bespoke-experience-1: url(/uploads/bespoke-experience-1.jpg);
+				--bespoke-experience-2: url(/uploads/bespoke-experience-2.jpg);
+				--bespoke-experience-3: url(/uploads/bespoke-experience-3.jpg);
+			}
+		}
+
 		body.fp-viewing-10 #topnav {
 			background-color: black;
 		}
@@ -71,14 +91,15 @@
 				background-position: center;
 				background-size: cover;
 			}
-			.poster-product-1 {
+
+			.product-1-poster {
 				background-image: url(/uploads/videos-cover/product-1.jpg);
 			}
 		}
-		.poster-product-1 {
+
+		.product-1-poster {
 			background-image: url(/mobile/uploads/videos-cover/product-1.jpg);
 		}
-
 	</style>
 
 	<link rel="shortcut icon" href="/favicon.ico" />
@@ -219,108 +240,19 @@
 				</div>
 			</div>
 
-			<div id="cookies-info" class="transition-opacity duration-300 select-none">
-				<div class="container flex flex-col md:flex-row md:items-center">
-					<div class="p-[15px]">
-						By clicking “Accept”, you agree to the storing of cookies on your
-						device to enhance site navigation, analyze site usage, and assist
-						in our marketing efforts.
-					</div>
-					<div class="uppercase font-semibold flex space-x-[15px] p-[15px]">
-						<a data-cookies-button="decline" class="cursor-pointer opacity-40">Decline</a>
-						<a data-cookies-button="accept" class="cursor-pointer">Accept</a>
-					</div>
-				</div>
-			</div>
-
 			<div id="fullpage-loader"></div>
 
 			<div id="fullpage">
-				<!--          <section id="events" class="events active" data-section="1">-->
-				<!--            <div class="events__background">-->
-				<!--              <div class="events-background-overlay"></div>-->
-				<!--              <img alt="" class="events__earth" src="images/nasa-Q1p7bh3SHj8-unsplash-min.jpg" />-->
-				<!--            </div>-->
-
-				<!--            <div class="events__title-container js-eventsTitleContainer">-->
-				<!--              <span class="events__date js-eventsDate">November 18-27, 2022</span>-->
-				<!--              <p class="js-eventsTitle">Los Angeles Auto Show</p>-->
-				<!--            </div>-->
-
-				<!--            <button class="events__arrow events__arrow&#45;&#45;left js-eventsArrowLeft hidden" type="button"></button>-->
-				<!--            <button class="events__arrow events__arrow&#45;&#45;right js-eventsArrowRight" type="button"></button>-->
-
-				<!--            <div class="events__map-container">-->
-				<!--              <div class="events__map js-eventsMap">-->
-				<!--                <img alt="" class="events__grid" src="images/map.png" />-->
-				<!--                <div id="los-angeles" class="events__region">-->
-				<!--                  <div-->
-				<!--                      id="los-angeles-pin"-->
-				<!--                      class="events__pin js-eventsPin"-->
-				<!--                      data-date="October 27, 2022"-->
-				<!--                      data-title="Petersen Museum, L.A. Charge Cars USA Debut"-->
-				<!--                      style="top: 9vh; left: 3vh;"-->
-				<!--                  >-->
-				<!--                    <svg class="events__pin-logo">-->
-				<!--                      <use xlink:href="#icon-logo"></use>-->
-				<!--                    </svg>-->
-				<!--                  </div>-->
-				<!--                  <div-->
-				<!--                      id="los-angeles2-pin"-->
-				<!--                      class="events__pin js-eventsPin active"-->
-				<!--                      data-date="November 18-27, 2022"-->
-				<!--                      data-title="Los Angeles Auto Show"-->
-				<!--                      style="top: 21vh; left: 8vh;"-->
-				<!--                  >-->
-				<!--                    <svg class="events__pin-logo">-->
-				<!--                      <use xlink:href="#icon-logo"></use>-->
-				<!--                    </svg>-->
-				<!--                  </div>-->
-				<!--                  <img alt="" class="events__state js-eventsState" src="images/CALIFORTNIA.svg" />-->
-				<!--                </div>-->
-				<!--                <div-->
-				<!--                    id="ny" class="events__region">-->
-				<!--                  <div-->
-				<!--                      id="ny-pin"-->
-				<!--                      class="events__pin js-eventsPin"-->
-				<!--                      data-date="Date TBC"-->
-				<!--                      data-title="New York Event TBC"-->
-				<!--                      style="top: 3vh; left: 10vh;"-->
-				<!--                  >-->
-				<!--                    <svg class="events__pin-logo">-->
-				<!--                      <use xlink:href="#icon-logo"></use>-->
-				<!--                    </svg>-->
-				<!--                  </div>-->
-				<!--                  <img alt="" class="events__state js-eventsState" src="images/NY.svg" />-->
-				<!--                </div>-->
-				<!--                <div-->
-				<!--                    id="florida" class="events__region">-->
-				<!--                  <div-->
-				<!--                      id="florida-pin"-->
-				<!--                      class="events__pin js-eventsPin"-->
-				<!--                      data-date="Date TBC"-->
-				<!--                      data-title="Miami VIP Event TBC"-->
-				<!--                      style="top: 6vh; left: 17vh;"-->
-				<!--                  >-->
-				<!--                    <svg class="events__pin-logo">-->
-				<!--                      <use xlink:href="#icon-logo"></use>-->
-				<!--                    </svg>-->
-				<!--                  </div>-->
-				<!--                  <img alt="" class="events__state js-eventsState" src="images/FLORIDA.svg" />-->
-				<!--                </div>-->
-				<!--              </div>-->
-				<!--            </div>-->
-				<!--          </section>-->
-
 				<section data-scroll-speed="10" data-min-percentage-video-showed-to-leave="95" id="vision-statement"
 					data-section="1" class="with-parted-video active">
 					<div class="absolute inset-0 overflow-hidden z-20 pointer-events-none w-full text-center text-white h1"
 						style="font-weight: 400;">
-						<video muted loop playsinline preload="metadata"
-							poster="/uploads/videos-cover/vision-statement-1.jpg"
+						<video id="vision-statement-1" muted loop playsinline preload="metadata"
+							poster="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 							class="skip-level-pause top-0 inset-x-0 w-full h-full z-10 relative transition-all duration-200 object-cover"
 							style="height: 100%">
-							<source src="/videos/vision-statement-1.mp4" type="video/mp4" />
+							<source media="(min-width: 800px)" src="/videos/vision-statement-1.mp4" type="video/mp4" />
+							<source src="/mobile/videos/vision-statement-1.mp4" type="video/mp4" />
 						</video>
 
 						<div class="vision-statement__title-container w-content">
@@ -360,9 +292,11 @@
 					data-section="3" class="with-parted-video with-bottom-indicator">
 					<div class="absolute inset-0 overflow-hidden z-20 pointer-events-none">
 						<div data-video-container="original" class="absolute inset-0 flex justify-center active">
-							<video muted preload="metadata" poster="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" playsinline
-								class="poster-product-1 w-full h-auto relative z-10 object-cover">
-								<source src="/videos/product-1.mp4#t=0.001" type="video/mp4" media="(min-width: 800px)" />
+							<video muted preload="metadata"
+								poster="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+								playsinline class="product-1-poster w-full h-auto relative z-10 object-cover">
+								<source src="/videos/product-1.mp4#t=0.001" type="video/mp4"
+									media="(min-width: 800px)" />
 								<source src="/mobile/videos/product-1.mp4#t=0.001" type="video/mp4" />
 							</video>
 						</div>
@@ -1169,17 +1103,16 @@
 					class="with-parted-video">
 					<div class="absolute inset-0 overflow-hidden z-20 pointer-events-none">
 						<div data-video-element-bg="bg-1"
-							class="absolute inset-0 bg-cover bg-center transition-opacity duration-800" style="
-                  background-image: url('/uploads/bespoke-experience-1.jpg');
-                "></div>
+							class="absolute inset-0 bg-cover bg-center transition-opacity duration-800"
+							style="background-image: var(--bespoke-experience-1)">
+						</div>
 						<div data-video-element-bg="bg-2"
-							class="absolute inset-0 bg-cover bg-center transition-opacity duration-800" style="
-                  background-image: url('/uploads/bespoke-experience-2.jpg');
-                "></div>
+							class="absolute inset-0 bg-cover bg-center transition-opacity duration-800"
+							style="background-image: var(--bespoke-experience-2)"></div>
 						<div data-video-element-bg="bg-3"
-							class="absolute inset-0 bg-cover bg-center transition-opacity duration-800" style="
-                  background-image: url('/uploads/bespoke-experience-3.jpg');
-                "></div>
+							class="absolute inset-0 bg-cover bg-center transition-opacity duration-800"
+							style="background-image: var(--bespoke-experience-3)">
+						</div>
 
 						<div data-video-element="part-1"
 							class="element-bottom text-white transition-opacity duration-300" style="opacity: 0">
@@ -2025,28 +1958,28 @@
 
 	<script type="text/javascript" src="/js/app.js"></script>
 	<script>
-		$(document).ready(function () {
-			new IScroll("#mobile-scroll", {
+		$( document ).ready( function () {
+			new IScroll( "#mobile-scroll", {
 				mouseWheel: true,
 				scrollbars: true,
 				scrollX: false,
 				scrollY: true,
 				interactiveScrollbars: true,
-			});
+			} );
 
-			new IScroll("#about-us-scroll", {
+			new IScroll( "#about-us-scroll", {
 				probeType: 3,
 				mouseWheel: true,
 				scrollbars: true,
 				scrollX: false,
 				scrollY: true,
 				interactiveScrollbars: true,
-				onBeforeScrollStart: function (e) {
+				onBeforeScrollStart: function ( e ) {
 					e.stopPropagation();
 				},
-			});
+			} );
 
-			var splide_product = new Splide("#product-3-mobile-slider", {
+			var splide_product = new Splide( "#product-3-mobile-slider", {
 				type: "loop",
 				padding: "0rem",
 				perPage: 2,
@@ -2056,11 +1989,11 @@
 				pagination: false,
 				drag: false,
 				wheel: false,
-			});
+			} );
 
 			splide_product.mount();
 
-			var splide_dealership = new Splide("#dealership-mobile-slider", {
+			var splide_dealership = new Splide( "#dealership-mobile-slider", {
 				arrows: false,
 				focus: 'center',
 				//type: "loop",
@@ -2072,11 +2005,11 @@
 				pagination: false,
 				drag: false,
 				wheel: false,
-			});
+			} );
 
 			splide_dealership.mount();
 
-			var splide_gallery = new Splide("#gallery-preview-slider", {
+			var splide_gallery = new Splide( "#gallery-preview-slider", {
 				type: "loop",
 				padding: "0rem",
 				perPage: 7,
@@ -2087,45 +2020,44 @@
 				pagination: false,
 				drag: false,
 				wheel: false,
-			});
+			} );
 
 			splide_gallery.mount();
 
 			const gallery_section_index =
-				$(".fp-section").index(document.getElementById("gallery")) + 1;
+				$( ".fp-section" ).index( document.getElementById( "gallery" ) ) + 1;
 
-			$("#gallery-preview-slider a[data-gallery-selector]").on(
+			$( "#gallery-preview-slider a[data-gallery-selector]" ).on(
 				"click",
-				function (e) {
-					var slide_idx = parseInt($(this).attr("data-gallery-selector")) - 1;
+				function ( e ) {
+					var slide_idx = parseInt( $( this ).attr( "data-gallery-selector" ) ) - 1;
 
-					$.fn.fullpage.moveTo(gallery_section_index, slide_idx);
-					splide_gallery.go(slide_idx);
+					$.fn.fullpage.moveTo( gallery_section_index, slide_idx );
+					splide_gallery.go( slide_idx );
 				}
 			);
 
-			$("#gallery .fp-controlArrow.fp-next").on("click", function (e) {
-				var slide_idx = $("#gallery .fp-slidesContainer .slide").index(
-					$("#gallery .fp-slidesContainer .slide.active")
+			$( "#gallery .fp-controlArrow.fp-next" ).on( "click", function ( e ) {
+				var slide_idx = $( "#gallery .fp-slidesContainer .slide" ).index(
+					$( "#gallery .fp-slidesContainer .slide.active" )
 				);
 
-				splide_gallery.go(slide_idx + 1);
-			});
+				splide_gallery.go( slide_idx + 1 );
+			} );
 
-			$("#gallery .fp-controlArrow.fp-prev").on("click", function (e) {
-				var slide_idx = $("#gallery .fp-slidesContainer .slide").index(
-					$("#gallery .fp-slidesContainer .slide.active")
+			$( "#gallery .fp-controlArrow.fp-prev" ).on( "click", function ( e ) {
+				var slide_idx = $( "#gallery .fp-slidesContainer .slide" ).index(
+					$( "#gallery .fp-slidesContainer .slide.active" )
 				);
 
-				splide_gallery.go(slide_idx - 1);
-			});
-		});
+				splide_gallery.go( slide_idx - 1 );
+			} );
+		} );
 	</script>
-	<!--
+	<!-- yk: uncomment later
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
     <script>
-      mapboxgl.accessToken =
-        "pk.eyJ1IjoiY2FyZmFuYXRpYyIsImEiOiJjbDF1amN2OTgxNXJ3M2lxczhzeTdlcWlzIn0.Z0JDBETF2ppFwIRL7NgHow";
+      mapboxgl.accessToken = "pk.eyJ1IjoiY2FyZmFuYXRpYyIsImEiOiJjbDF1amN2OTgxNXJ3M2lxczhzeTdlcWlzIn0.Z0JDBETF2ppFwIRL7NgHow";
 
       $(document).ready(function () {
         const coords = [-0.44869, 51.505725];

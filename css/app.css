@@ -3810,7 +3810,7 @@ input::-webkit-inner-spin-button {
 video {
 
 	&#vision-statement-1 {
-		background-image: url(../mobile/uploads/videos-cover/vision-statement-1.jpg);
+		background-image: url(.../mobile/uploads/videos-cover/vision-statement-1.jpg);
 
 		@media (min-width: 800px) {
 			background-image: url(../uploads/videos-cover/vision-statement-1.jpg);

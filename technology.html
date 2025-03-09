@@ -315,7 +315,11 @@
 
 							<footer
 								class="flex flex-col pt-[130px] relative text-white font-light text-[18px] sm:text-[16px] z-20">
-								<div class="flex flex-col xl:flex-row w-full">
+								<div class="absolute bottom-full inset-x-0 h-[80px]"
+									style="background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);">
+								</div>
+
+								<div class="footer__container">
 									<div
 										class="flex flex-col md:flex-row flex-grow flex-shrink justify-between w-full xl:w-auto">
 										<div class="flex flex-col space-y-[16px] px-[40px] pb-[32px] w-full md:w-auto">
@@ -326,58 +330,35 @@
 													<use xlink:href="#icon-logo"></use>
 												</svg>Charge
 											</span>
-											<div class="flex flex-col opacity-80 space-y-[5px] pl-[0px] xl:pl-[50px]">
-												<span>360 Stockley Close</span>
-												<span>London</span>
-												<span>UB7 9BL</span>
+										</div>
+
+										<div class="footer__wrapper">
+											<div class="flex flex-col md:flex-row w-full md:w-auto">
+												<div
+													class="flex flex-col space-y-[16px] px-[40px] pb-[32px] w-full md:w-auto">
+													<h4 class="h3">Get in touch</h4>
+													<div class="flex flex-col space-y-[5px]">
+														<a class="footer-link"
+															href="mailto:hello@charge.cars">hello@charge.cars</a>
+													</div>
+												</div>
+											</div>
+
+											<div class="flex flex-col md:flex-row w-full md:w-auto">
 											</div>
 										</div>
 
-										<div class="flex flex-col md:flex-row w-full md:w-auto">
-											<div
-												class="flex flex-col space-y-[16px] px-[40px] pb-[32px] w-full md:w-auto">
-												<h4 class="h3">Get in touch</h4>
-												<div class="flex flex-col space-y-[5px]">
-													<div>
-														<a href="mailto:hello@charge.cars"
-															class="footer-link">hello@charge.cars</a>
-													</div>
-													<div>
-														<a href="tel:+442039884888" class="footer-link">+44 20 3988
-															4888</a>
-													</div>
-												</div>
-											</div>
-											<div
-												class="flex flex-col space-y-[16px] px-[40px] pb-[32px] w-full md:w-auto">
-												<h4 class="h3">More</h4>
-												<div class="flex flex-col space-y-[5px]">
-													<div>
-														<a id="footer-link-privacy-policy"
-															href="/files/privacy-policy.pdf" target="_blank"
-															rel="nofollow" class="footer-link">Privacy policy</a>
-													</div>
-												</div>
+										<div class="flex flex-col space-y-[16px] px-[40px] pb-[32px] w-full md:w-auto">
+											<h4 class="h3">More</h4>
+											<div class="flex flex-col space-y-[5px]">
+												<a id="footer-link-privacy-policy" href="/files/privacy-policy.pdf"
+													target="_blank" rel="nofollow" class="footer-link">Privacy
+													policy</a>
 											</div>
 										</div>
 									</div>
 
 									<div class="flex flex-col space-y-[16px] px-[40px] pb-[32px] w-full xl:w-auto">
-										<h4 class="h3">Sign up for our newsletter</h4>
-										<div>
-											<form id="subscribe-form"
-												class="content-form items-center max-w-full w-[460px]">
-												<input id="subscribe-form-input" name="email" type="text"
-													placeholder="Enter your email address"
-													class="flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent" />
-												<button id="subscribe-form-button" type="submit">
-													<svg aria-hidden="true" focusable="true" role="img"
-														xmlns="http://www.w3.org/2000/svg">
-														<use xlink:href="#icon-next"></use>
-													</svg>
-												</button>
-											</form>
-										</div>
 									</div>
 								</div>
 
@@ -424,7 +405,7 @@
 									</div>
 									<div class="opacity-40 px-[40px] py-[30px] w-full md:w-auto flex flex-col">
 										<span class="text-[16px]">
-											Copyright © 2023 Charge Cars Ltd. All rights reserved
+											Copyright © 2025 Charge Automotive Ltd. All rights reserved
 										</span>
 										<span class="text-[14px]">
 											The body and styling of the ’67 by Charge Cars is a trademark(s) and/or
@@ -433,7 +414,6 @@
 										</span>
 									</div>
 								</div>
-
 							</footer>
 						</div>
 					</div>
@@ -453,54 +433,62 @@
 					<span class="font-semibold text-white">Enquire</span>
 				</div>
 				<div class="px-[30px] w-full flex items-center justify-center">
-					<form id="reserve-action-form" class="max-w-full w-[460px] js-reserveForm">
-						<fieldset class="flex flex-col max-w-full space-y-[40px] js-formFieldset">
-							<div class="content-form items-center">
-								<input id="reserve-action-form-input-firstname" type="text" name="firstname"
-									placeholder="Your name" required
-									class="flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent" />
-							</div>
-							<div class="content-form items-center">
-								<input id="reserve-action-form-input-lastname" type="text" name="lastname"
-									placeholder="Your last name" required
-									class="flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent" />
-							</div>
-							<div class="content-form items-center">
-								<input id="reserve-action-form-input-phone" type="text" name="phone" placeholder="+1"
-									required
-									class="flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent" />
-							</div>
-							<div class="content-form items-center">
-								<input id="reserve-action-form-input-email" type="text" name="email"
-									placeholder="Your e-mail" required
-									class="flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent" />
-							</div>
-							<div class="content-form items-center">
-								<input id="reserve-action-form-input-country" type="text" name="country"
-									placeholder="Your country" required
-									class="flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent" />
-							</div>
-							<div class="content-form items-center">
-								<input id="reserve-action-form-input-city" type="text" name="city"
-									placeholder="Your city" required
-									class="flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent" />
-							</div>
-							<div class="content-form items-center">
-								<textarea class="textarea" name="hs_content_membership_notes"
-									placeholder="Your comments..." required></textarea>
-							</div>
-							<span class="font-bold text-white" style="font-size: 20px;">The price starts at
-								£350,000</span>
-							<div>
-								<button class="nav-button form__button--submit js-formButtonSubmit" type="submit">
-									<span class="text">Submit</span>
-									<svg class="loader" aria-hidden="true" focusable="false" role="img">
-										<use xlink:href="#icon-logo"></use>
-									</svg>
-								</button>
-							</div>
-						</fieldset>
-					</form>
+					<iframe src=https://crm.charge.cars/widget/form/18hJ649bim1YD1poVjP4 class="max-w-full w-[460px]"
+						style="width:500px;height:100%;border:none;border-radius:3px" id="inline-18hJ649bim1YD1poVjP4"
+						data-layout="{'id':'INLINE'}" data-trigger-type="alwaysShow" data-trigger-value=""
+						data-activation-type="alwaysActivated" data-activation-value=""
+						data-deactivation-type="neverDeactivate" data-deactivation-value="" data-form-name="Contact Us"
+						data-height="700" data-width="600" data-layout-iframe-id="inline-18hJ649bim1YD1poVjP4"
+						data-form-id="18hJ649bim1YD1poVjP4" title="Contact Us">
+					</iframe>
+					<script src=https://crm.charge.cars/js/form_embed.js></script>
+					<fieldset class="flex flex-col max-w-full space-y-[40px] js-formFieldset">
+						<div class="content-form items-center">
+							<input id="reserve-action-form-input-firstname" type="text" name="firstname"
+								placeholder="Your name" required
+								class="flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent" />
+						</div>
+						<div class="content-form items-center">
+							<input id="reserve-action-form-input-lastname" type="text" name="lastname"
+								placeholder="Your last name" required
+								class="flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent" />
+						</div>
+						<div class="content-form items-center">
+							<input id="reserve-action-form-input-phone" type="text" name="phone" placeholder="+1"
+								required
+								class="flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent" />
+						</div>
+						<div class="content-form items-center">
+							<input id="reserve-action-form-input-email" type="text" name="email"
+								placeholder="Your e-mail" required
+								class="flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent" />
+						</div>
+						<div class="content-form items-center">
+							<input id="reserve-action-form-input-country" type="text" name="country"
+								placeholder="Your country" required
+								class="flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent" />
+						</div>
+						<div class="content-form items-center">
+							<input id="reserve-action-form-input-city" type="text" name="city" placeholder="Your city"
+								required
+								class="flex-grow flex-shrink border-0 placeholder-white focus:outline-none pl-[12px] pr-[54px] py-[10px] w-full bg-transparent" />
+						</div>
+						<div class="content-form items-center">
+							<textarea class="textarea" name="hs_content_membership_notes" placeholder="Your comments..."
+								required></textarea>
+						</div>
+						<span class="font-bold text-white" style="font-size: 20px;">The price starts at
+							£350,000</span>
+						<div>
+							<button class="nav-button form__button--submit js-formButtonSubmit" type="submit">
+								<span class="text">Submit</span>
+								<svg class="loader" aria-hidden="true" focusable="false" role="img">
+									<use xlink:href="#icon-logo"></use>
+								</svg>
+							</button>
+						</div>
+					</fieldset>
+					</form>-->
 				</div>
 				<div class="text-center px-[30px] py-[45px] w-full">
 					<span style="color: white; opacity: 50%; font-size: 16px;">We collect your data to keep you updated
